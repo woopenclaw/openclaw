@@ -1,0 +1,99 @@
+[main/sessions/main/01dcb25a-69b3-42c9-88f1-629a915a9d46.jsonl#L10] Assistant: 队列空，无新指令。日志显示近期有一次死锁告警（已自愈）。新技能到货：`api-failover`、`dual-agent-sop`、`guofeng-drama`、`task-notify`。
+[main/sessions/main/02a1647f-bee3-497e-99a2-f836b4293064.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。 检查下工作日志最近动态：
+[main/sessions/main/02a1647f-bee3-497e-99a2-f836b4293064.jsonl#L10] Assistant: 日志动态： - **00:15** ⚠️ 看门狗检测到队列文件死锁（锁定3779秒），已强制重置 - **00:20** ✅ 队列检查无新指令 - bailian-qwen 403 异常持续，deepseek 正常 无待执行指令。 HEARTBEAT_OK
+[main/sessions/main/08432f0e-6735-41f8-b120-794a60c03efd.jsonl#L10] Assistant: HEARTBEAT_OK. 队列空，无新指令。日志动态：bailian-qwen 401 异常持续中；`guofeng-drama` 技能最近有更新（01:36）。
+[main/sessions/main/0a364edf-9841-4288-be3c-5b071708c1ce.jsonl#L11] Assistant: 队列为空，无新指令。日志里注意到阿飞在排查 ComfyUI 马赛克问题 + 部署了定时自愈任务（Job `6b9d7660549f`），bailian-qwen 401 异常持续 >10h。
+[main/sessions/main/0a5403f3-2758-486a-a7ab-1a413772e997.jsonl#L9] Assistant: 队列空，无新指令。日志中 bailian-qwen 401 异常持续存在——之前的心跳已经记录过。让我再看下最新几行确认没有新动态。
+[main/sessions/main/0a5403f3-2758-486a-a7ab-1a413772e997.jsonl#L11] Assistant: 无新指令，bailian-qwen 401 已知，无新动态。写入本次心跳后返回。
+[main/sessions/main/0b6999ec-9fc6-4465-8ed0-cbdcfc75506c.jsonl#L9] Assistant: 信箱为空，无新指令。 日志最近内容：ComfyUI 重启 → 提交测试 → 质量检测流程进行中，等待 v4 结果。属于进行中的后台任务，非新动态。 HEARTBEAT_OK
+[main/sessions/main/0d342a7f-9e07-49db-af23-cd8603daa53b.jsonl#L10] Assistant: 信箱空，无新指令。日志中 bailian-qwen 401 异常持续存在，此前已有记录。 HEARTBEAT_OK
+[main/sessions/main/10fffd6d-5f3b-41ac-bdb7-656b22cb5264.jsonl#L9] Assistant: 队列空，无新指令。日志正常（22KB，远低于1MB阈值），无异常动态。
+[main/sessions/main/167a255c-5e8b-41e1-8685-b0a135828da1.jsonl#L8] Assistant: 队列空，没新指令。检查下日志最近动态。
+[main/sessions/main/167a255c-5e8b-41e1-8685-b0a135828da1.jsonl#L11] Assistant: 注意到 `task-notify` 技能目录刚刚出现（00:09），这是阿飞新交付的技能。还有一次看门狗在 00:15 检测到队列死锁并自动修复了。
+[main/sessions/main/167a255c-5e8b-41e1-8685-b0a135828da1.jsonl#L13] Assistant: 队列空，无新指令。 **动态摘要：** - 🆕 **新技能** `task-notify`（阿飞 00:09 交付）→ 下次飞哥上线时可提醒试用 - ⚠️ 00:15 看门狗检测到队列死锁（锁死3779秒），已自动重置→修复 - 📋 bailian-qwen 403 持续，deepseek 正常 - 📏 日志 19KB，健康 HEARTBEAT_OK
+[main/sessions/main/18242f56-e8ab-4eb8-8599-e400c62ab9dd.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/19b42225-c920-4ea9-83c8-b2dc53a00d9f.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/19b42225-c920-4ea9-83c8-b2dc53a00d9f.jsonl#L10] Assistant: 信箱空，无新指令。追加本次心跳日志。
+[main/sessions/main/1d9ba5e0-f184-4363-8a8c-6cb64a483c91.jsonl#L8] Assistant: 队列为空，无新指令。
+[main/sessions/main/1d9ba5e0-f184-4363-8a8c-6cb64a483c91.jsonl#L10] Assistant: 日志最近只有常规 heartbeat，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/1e4279dc-a4b4-40aa-ba00-d869b8b508bd.jsonl#L9] Assistant: 信箱为空，无新指令。 巡检记录： - `~/yan_queue.md` — 空（1字节），无需执行 - `~/comic_work.log` — 324行 / 26KB，健康 - 最近日志：心跳正常，bailian-qwen 401 仍持续异常 - 技能目录无新增（guofeng-drama 上次已记录） HEARTBEAT_OK
+[main/sessions/main/1e970570-5334-4e34-954d-28b6697fb067.jsonl#L9] Assistant: 队列空，无新指令。 ⚠️ 注意：bailian-qwen 连续多轮返回 403，API 可能已失效，建议飞哥白天检查下百炼 API Key。 HEARTBEAT_OK
+[main/sessions/main/232d7e07-d0be-48c1-b9aa-9bc0453ec3b6.jsonl#L9] Assistant: 队列空，无新指令。日志近期都是心跳记录，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/24c416eb-3c07-4053-a740-84e03b2fa768.jsonl#L11] Assistant: 队列空，无新指令。 日志动态：bailian-qwen API 持续异常（从昨天 401 升级为 403），deepseek 正常。国风漫剧有流水线指令记录。
+[main/sessions/main/29c34d2f-d54c-4fb0-86b2-d3c8c915fcdf.jsonl#L8] Assistant: 信箱空，无新指令。HEARTBEAT_OK
+[main/sessions/main/2a77886c-b056-4ff2-bead-d9277a72af50.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一下日志动态。
+[main/sessions/main/2a77886c-b056-4ff2-bead-d9277a72af50.jsonl#L10] Assistant: 日志正常，最新几条都是队列空、无新指令的常规心跳记录。API 状态也稳定。 **HEARTBEAT_OK**
+[main/sessions/main/2e549ca2-5d65-4032-97fb-80a1847076db.jsonl#L8] Assistant: 文件为空，没有新指令。检查下工作日志有没有新动态。
+[main/sessions/main/2e549ca2-5d65-4032-97fb-80a1847076db.jsonl#L10] Assistant: 日志显示上次 heartbeat 有 `bailian-qwen 401 持续异常` 的标记。快速记录本次 heartbeat。
+[main/sessions/main/2f747b07-5127-4d1b-aab0-82c6dd7a27af.jsonl#L9] Assistant: 队列空，无新指令。日志动态：bailian-qwen 401 异常持续存在，已超一天。其余正常。 HEARTBEAT_OK
+[main/sessions/main/31bf53c6-e2a0-4086-93ce-97ca9eca4317.jsonl#L8] Assistant: 队列文件为空，没有新指令。快速巡查一下其他状态。
+[main/sessions/main/31bf53c6-e2a0-4086-93ce-97ca9eca4317.jsonl#L11] Assistant: 信箱为空，日志无异常。HEARTBEAT_OK
+[main/sessions/main/35dba453-89fc-40e2-9b8f-f8b6da8feb29.jsonl#L9] Assistant: 信箱为空，无新指令。 日志最近动态：阿飞已完成国风漫剧全栈部署（HunyuanVideo fp8、CLIP、VAE、国风工作流、prompt变体、批量队列脚本），LLM文本编码器下载中（50%），LoRA目录待填充。 **HEARTBEAT_OK**
+[main/sessions/main/36433fc9-d666-46e1-8a5a-7fca3a7e7cf3.jsonl#L9] Assistant: 队列空，无新指令。 日志动态：bailian-qwen API 异常持续（403→401），deepseek 正常；队列死锁之前已自愈；新技能 `api-failover`, `dual-agent-sop`, `guofeng-drama`, `task-notify` 均已记入。无新异常。 HEARTBEAT_OK
+[main/sessions/main/4106944c-255d-4147-a8fe-698c725a61db.jsonl#L9] Assistant: 队列空，无新指令。追加本次心跳日志。
+[main/sessions/main/416c0348-15bd-4290-b236-f61d987178e3.jsonl#L9] Assistant: 队列空，无新指令。日志最近几条均是常规心跳记录，无异常新动态。
+[main/sessions/main/436c36b0-8d72-4329-9831-10a7b3b6d231.jsonl#L8] Assistant: 队列为空，无新指令。快速看一眼日志动态。
+[main/sessions/main/436c36b0-8d72-4329-9831-10a7b3b6d231.jsonl#L10] Assistant: 队列空，无新指令；日志无异常动态，一切正常。 **HEARTBEAT_OK**
+[main/sessions/main/47f8b129-5611-4945-bc22-b714968b364f.jsonl#L8] Assistant: `~/yan_queue.md` 为空，无新指令。
+[main/sessions/main/47f8b129-5611-4945-bc22-b714968b364f.jsonl#L10] Assistant: 日志最近一条是上一轮 02:00 的 cron 心跳，无新动态。bailian-qwen 的 401 异常仍然存在（持续已知问题）。 HEARTBEAT_OK
+[main/sessions/main/4ae3f73b-551c-4813-ae60-91beb42242e9.jsonl#L10] Assistant: 信箱空，无新指令。日志最近条目都是定时心跳，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/4c2983f3-8147-43c4-93f9-75c1b07dee72.jsonl#L12] Assistant: 信箱空，无新指令。日志最近几条都是常规心跳，无异常新动态。 HEARTBEAT_OK
+[main/sessions/main/4f6fea61-3bb1-476c-b672-f108200e200b.jsonl#L8] Assistant: 信箱为空，再快速扫一下日志状态和技能目录。
+[main/sessions/main/4f6fea61-3bb1-476c-b672-f108200e200b.jsonl#L10] Assistant: 一切正常。追加心跳记录。
+[main/sessions/main/535f12ad-c682-4027-82bc-ef5f8ae0bf5e.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/535f12ad-c682-4027-82bc-ef5f8ae0bf5e.jsonl#L10] Assistant: 无新指令，无异常动态。记一笔。
+[main/sessions/main/5a4debbc-9968-401d-ba00-c44825c87a73.jsonl#L9] Assistant: 队列空，无新指令。日志里有 bailian-qwen 的 401 告警（已记录）。 HEARTBEAT_OK
+[main/sessions/main/5b8bc859-73e9-43f2-b391-1a7cac9e5538.jsonl#L10] Assistant: 信箱空。补充一条心跳日志。
+[main/sessions/main/5d15969d-cb5f-4cbf-b723-6f5ad096ca5a.jsonl#L10] Assistant: 信箱空，无待办指令。 HEARTBEAT_OK
+[main/sessions/main/5d19ae6c-2654-4d71-b67d-0141ac873d34.jsonl#L9] Assistant: 队列空，无阿飞新指令。日志正常，技能目录无变动。 HEARTBEAT_OK
+[main/sessions/main/5d6cc494-554f-4f34-9f01-a87bd6d5e039.jsonl#L9] Assistant: 队列空，无新指令。日志中 bailian-qwen 401 持续异常（已知存量问题）。追加本次心跳记录。
+[main/sessions/main/5e205e64-e655-4398-9021-077d40a0ad49.jsonl#L8] Assistant: 信箱为空，无新指令。快速检查日志动态：
+[main/sessions/main/5e205e64-e655-4398-9021-077d40a0ad49.jsonl#L11] Assistant: 日志正常，技能目录无异常。追加本次心跳记录：
+[main/sessions/main/64a096fc-d572-4435-a7d8-792440f904a4.jsonl#L8] Assistant: 信箱为空，没有新指令。快速检查下日志状态。
+[main/sessions/main/64a096fc-d572-4435-a7d8-792440f904a4.jsonl#L10] Assistant: 日志健康（334行，26KB），无异常。追加本次心跳记录。
+[main/sessions/main/655b4ae9-fb3e-4be1-a147-5d0aa3038e12.jsonl#L12] Assistant: 队列空，无新指令。 📊 日志观测： - **bailian-qwen API 403** @ 01:00 — 已由 `api-failover` 技能接管处理 - **deepseek API 正常** — 主力模型可用 - 新技能 `guofeng-drama` 已就位（01:02 落盘） HEARTBEAT_OK
+[main/sessions/main/6d5c7d5f-fe5a-4e82-a2de-62e121f315eb.jsonl#L9] Assistant: 队列空，无新指令。bailian-qwen 401 持续异常（已持续多轮），deepseek/volc-ark 健康。 记录心跳：
+[main/sessions/main/765274a2-4d5f-452e-8350-1c7a25668d3a.jsonl#L8] Assistant: 队列为空，已清理。再瞄一眼工作日志有没有新动态。
+[main/sessions/main/765274a2-4d5f-452e-8350-1c7a25668d3a.jsonl#L10] Assistant: 队列空，无阿飞新指令。日志里 bailian-qwen 的 403 还在持续，但已在上一轮 heartbeat 记录过了，没新动态。 HEARTBEAT_OK
+[main/sessions/main/76628e35-c626-4ab2-8b6e-cf649aa0fc82.jsonl#L8] Assistant: 信箱为空，无事需执行。深夜1:58，风平浪静。 HEARTBEAT_OK
+[main/sessions/main/79f81287-8c1e-43a4-b6d4-49ff0882dbb3.jsonl#L8] Assistant: 队列为空，无需执行。
+[main/sessions/main/8738b8fb-695f-401d-ad2f-3ca7021e1de9.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/8c0f5f36-fe08-43cf-9d06-f23c6a85fccf.jsonl#L8] Assistant: 信箱为空，没有新指令。快速扫一眼工作日志。
+[main/sessions/main/8c0f5f36-fe08-43cf-9d06-f23c6a85fccf.jsonl#L10] Assistant: 日志无新动态。bailian-qwen 401 异常已知，无需重复告警。 HEARTBEAT_OK
+[main/sessions/main/8ce4c445-ce86-429c-a4d7-0dc5638d4b69.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/8ce4c445-ce86-429c-a4d7-0dc5638d4b69.jsonl#L10] Assistant: 日志正常，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/8ecca48b-c281-4753-9782-1c997584fb05.jsonl#L9] Assistant: 队列空，无新指令。bailian-qwen 401 异常持续中（已超过10小时），deepseek/volc-ark 正常。
+[main/sessions/main/8fcd0227-9ea7-4bfb-90d9-888c5204f213.jsonl#L10] Assistant: 队列空，无新指令。日志中 bailian-qwen 401 异常已持续一段时间，无其他新动态。
+[main/sessions/main/923d7ac4-ce7c-4c78-8232-d24a0f9a25a0.jsonl#L10] Assistant: 队列空，无新指令。日志无异常。
+[main/sessions/main/98b0f633-5ff4-4e16-b167-e7a888b723bf.jsonl#L9] Assistant: 队列空，无新指令。日志动态：bailian-qwen 401 持续异常，deepseek/volc-ark 正常。记录 heartbeat。
+[main/sessions/main/9bd1efbb-0d0d-4f2d-b96a-8f0b8af104dd.jsonl#L10] Assistant: 信箱空，无新指令。 日志最新动态：bailian-qwen 仍持续 403，deepseek 正常。与上次 heartbeat 一致，无新异常。 HEARTBEAT_OK
+[main/sessions/main/9c3f0bc5-b596-4c10-a056-323b30e00283.jsonl#L8] Assistant: 信箱为空，没有新指令。快速巡检一下技能目录和日志状态。
+[main/sessions/main/9c3f0bc5-b596-4c10-a056-323b30e00283.jsonl#L10] Assistant: `~/yan_queue.md` 为空，无待执行指令。 巡检结果： - 📬 信箱：空，无新任务 - 🛠️ 技能目录：阿飞昨晚到凌晨交付了 4 个新技能（`guofeng-drama`、`task-notify`、`api-failover`、`dual-agent-sop`）+ 1 个混元工作流 JSON - 📋 工作日志：25KB / 320行，健康，无需归档 HEARTBEAT_OK
+[main/sessions/main/9cbca93e-ee85-47a1-b5d3-24dc7fb192b5.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/9e453ddc-099d-4095-ad95-d5828c5d3919.jsonl#L10] Assistant: 队列空，无新指令。日志仅有前序心跳记录，无新动态。
+[main/sessions/main/9f9749a1-8802-4711-b74d-360c353ad1ed.jsonl#L8] Assistant: 信箱为空，没有新指令。快速巡检一下日志和技能目录。
+[main/sessions/main/9f9749a1-8802-4711-b74d-360c353ad1ed.jsonl#L10] Assistant: **HEARTBEAT_OK** — 02:10 巡检完毕。 | 项目 | 状态 | |------|------| | 信箱 `~/yan_queue.md` | 空，无新指令 | | 工作日志 `~/comic_work.log` | 25KB，正常增长 | | 技能目录 `~/comic_skills/` | 10个技能，无变化 | | 上次日志 | 02:05，正常 |
+[main/sessions/main/a1022367-ea22-43bd-b06d-2183e892b529.jsonl#L8] Assistant: 队列为空，没有阿飞的新指令。 快速检查下日志和技能目录的状态：
+[main/sessions/main/a1022367-ea22-43bd-b06d-2183e892b529.jsonl#L10] Assistant: 一切正常： - 队列空，无新指令 - 日志 18KB，健康（远低于 1MB 阈值） - 技能目录无变化，10 个技能都在 - 上次 cron 已记录 bailian-qwen 403 异常持续 HEARTBEAT_OK
+[main/sessions/main/a17736e1-e4d5-438a-b2d4-ed10dd569e41.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/ab5c0823-dce9-4c40-b051-a1c0362fae04.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/ad9acf30-2dc7-403e-90b3-8cb6f7144a32.jsonl#L10] Assistant: 队列空，无新指令。日志最近两条都是正常心跳，无异常动态。 **HEARTBEAT_OK**
+[main/sessions/main/b1fe32ae-e49e-4686-b9b5-940f9310ccdc.jsonl#L13] Assistant: 队列空，无新指令。日志最近动态：阿飞在跑漫剧制作体系升级——seedance-2.0已接入，ComfyUI搭建完成但fp8模型兼容有问题，正版safetensors下载中。bailian-qwen 401仍持续，deepseek/volc-ark正常。
+[main/sessions/main/b34ca22e-9909-4270-be97-7dffd1d658d2.jsonl#L8] Assistant: 信箱为空，没有新指令。看看日志有没有新动态。
+[main/sessions/main/b34ca22e-9909-4270-be97-7dffd1d658d2.jsonl#L10] Assistant: 一切正常。追加本次心跳日志。
+[main/sessions/main/b35eee61-c7d1-4e5d-a9f4-0cec3cb94945.jsonl#L10] Assistant: 队列空，日志只有例行心跳记录，无异常动态。
+[main/sessions/main/b8932869-4718-4a05-86a7-6dab06390d76.jsonl#L8] Assistant: 信箱为空，无新指令。看一眼工作日志确认无异常。
+[main/sessions/main/b8932869-4718-4a05-86a7-6dab06390d76.jsonl#L10] Assistant: 日志正常，追加本次心跳。
+[main/sessions/main/b950188d-f339-4b5e-a9c2-c6f4720ee03a.jsonl#L8] Assistant: 信箱为空，没有新指令。 快速检查工作日志状态：
+[main/sessions/main/b950188d-f339-4b5e-a9c2-c6f4720ee03a.jsonl#L11] Assistant: 日志 20KB，健康。无新技能。追加本次心跳记录：
+[main/sessions/main/bc8a7d5c-dc16-4e57-8c3e-fae117824bf4.jsonl#L9] Assistant: 队列空，无新指令。日志 26KB，健康。
+[main/sessions/main/bfcdee3c-8fa5-42ad-8c39-8367ff85f636.jsonl#L9] Assistant: 队列空，无新指令。日志正常增长（~19KB），远低于1MB归档阈值。 **HEARTBEAT_OK**
+[main/sessions/main/c7d45359-3143-431d-a890-cdaf989f4cb1.jsonl#L9] Assistant: 队列空，无新指令。日志正常，只有之前的例行 heartbeat 记录。
+[main/sessions/main/ca184c61-2946-41a0-a4f8-438871be44ff.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。 HEARTBEAT_OK
+[main/sessions/main/cd8942fc-3b4a-4481-8bbf-d714b7d36e53.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/cdafa6d2-15fc-48a2-8250-908b9f0d7e34.jsonl#L10] Assistant: 信箱为空，没有新指令。快速扫一下工作日志。
+[main/sessions/main/cdafa6d2-15fc-48a2-8250-908b9f0d7e34.jsonl#L12] Assistant: 队列空，日志无异常。HEARTBEAT_OK。
+[main/sessions/main/ce9d5da2-3b87-4a5c-b218-afcd179bfca7.jsonl#L9] Assistant: 信箱为空，无新指令。 日志新动态：00:15 看门狗检测到队列文件死锁（锁定3779秒），已自动重置清空 — 恢复正常。 HEARTBEAT_OK
+[main/sessions/main/cf191aaf-fc65-4418-9652-631cc79d9de2.jsonl#L12] Assistant: 队列空，无新指令。bailian-qwen 401 异常已知且持续中，已在前序心跳中记录。
+[main/sessions/main/d2a99457-105c-436c-9898-f5ee452d0a3a.jsonl#L10] Assistant: 队列空，无新指令。技能目录无新增。日志 21KB，健康。 HEARTBEAT_OK
+[main/sessions/main/d37d11b3-70e5-4c70-a477-4a8383a6d567.jsonl#L9] Assistant: 队列空，没有阿飞的新指令。日志中 bailian-qwen 401 异常仍在持续，其余无新动态。

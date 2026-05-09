@@ -1,0 +1,28 @@
+# 敏感文件
+.env
+*.key
+*secret*
+*password*
+*.pem
+
+# 临时/运行时文件
+*.log
+*.bak
+tmp/
+node_modules/
+
+# 大文件/输出
+*.mp4
+*.png
+*.jpg
+*.gif
+*.webp
+
+# 系统目录
+.clawhub/
+.openclaw/
+__pycache__/
+*.pyc
+
+# 队列文件
+yan_queue.md
