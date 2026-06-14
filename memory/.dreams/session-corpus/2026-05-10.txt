@@ -1,0 +1,444 @@
+[main/sessions/main/072cddf3-f039-49e5-be18-58bba33ca688.jsonl#L8] Assistant: 信箱为空，无需执行指令。
+[main/sessions/main/0b245e5f-7a7e-4ecc-a7a5-3f4336714a00.jsonl#L8] Assistant: 信箱为空，没有新指令。快速看一眼工作日志状态。
+[main/sessions/main/0b245e5f-7a7e-4ecc-a7a5-3f4336714a00.jsonl#L10] Assistant: 日志健康，无异常。HEARTBEAT_OK
+[main/sessions/main/1162fa66-8a08-4dd3-85c1-83bdeb27a991.jsonl#L8] Assistant: 队列空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/170a6f9d-6d48-4cb7-80ef-f7a4207c75cb.jsonl#L8] Assistant: 队列空，无新指令。检查日志动态：
+[main/sessions/main/170a6f9d-6d48-4cb7-80ef-f7a4207c75cb.jsonl#L10] Assistant: 队列空，日志健康（65KB）。 HEARTBEAT_OK
+[main/sessions/main/1762aef8-40cc-42ee-8504-a5eedcca7702.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/1e41c310-0829-41d2-b3d8-9179f8c6b8aa.jsonl#L9] Assistant: 队列为空，无新指令。检查一下最新日志动态和技能目录。
+[main/sessions/main/27266cd5-ae72-47c8-8258-9458880134cb.jsonl#L9] Assistant: ✅ 队列空，无新指令。深夜静默期，一切正常。 HEARTBEAT_OK
+[main/sessions/main/29a05ecc-23eb-4150-8b35-eaf07e84f6e5.jsonl#L9] Assistant: 队列空，深夜无新指令。距上次心跳仅6分钟，无异常变化。 HEARTBEAT_OK
+[main/sessions/main/2a2221ba-f7cf-4d35-9725-b71e6dc50631.jsonl#L8] Assistant: 指令信箱为空，无新任务。
+[main/sessions/main/2a2221ba-f7cf-4d35-9725-b71e6dc50631.jsonl#L10] Assistant: 信箱空，无新指令。最近日志显示凌晨 `02:00` 和 `02:04` 各有一条心跳记录，`bailian-qwen 403` 告警仍在持续，无其他新动态。 HEARTBEAT_OK
+[main/sessions/main/2c600ed4-94c6-41e5-8047-0a06f6c34963.jsonl#L9] Assistant: 队列空，无新指令。追加本次心跳记录后回复。
+[main/sessions/main/2c600ed4-94c6-41e5-8047-0a06f6c34963.jsonl#L13] Assistant: 队列空，无阿飞新指令。日志 66KB 健康。技能目录有新增文件（`AI漫剧100方法论.md`、`AI漫剧全流程步骤清单.md`、`seedance_video_gen.py`、`gen_wukong.sh`），guofeng-drama 今晨 00:38 有更新。bailian-qwen 403 告警仍在持续。 HEARTBEAT_OK
+[main/sessions/main/2c7d1caf-9249-4635-89e1-cafd6e7da447.jsonl#L8] Assistant: 队列空，无新指令。 HEARTBEAT_OK.
+[main/sessions/main/356dd28d-f3fe-4db5-ad52-4226cd6999cd.jsonl#L8] Assistant: 信箱为空，无新指令。例行检查日志动态。
+[main/sessions/main/356dd28d-f3fe-4db5-ad52-4226cd6999cd.jsonl#L10] Assistant: 无异常，追加本次心跳日志。
+[main/sessions/main/35de98c4-9f66-4655-8b46-440bd7833688.jsonl#L9] Assistant: 队列空，无新指令。记录一个动态：bailian-qwen 刚才触发了 HTTP 429，deepseek 正常。 HEARTBEAT_OK
+[main/sessions/main/3816f063-0765-4b39-8f3a-188ab703a516.jsonl#L12] Assistant: 队列空，无新指令。技能目录有新动静但上次心跳已记录。追加日志后回复。
+[main/sessions/main/3c92adf1-7084-429d-b90f-2ed0f1696c07.jsonl#L8] Assistant: 队列为空，无新指令。快速检查一下日志动态：
+[main/sessions/main/3c92adf1-7084-429d-b90f-2ed0f1696c07.jsonl#L10] Assistant: 日志正常，无异常动态。写入本次心跳记录：
+[main/sessions/main/3ec3e6ae-bfec-4faf-9ed9-61e67b8e7a34.jsonl#L18] Assistant: 发现新动态：`~/comic_instructions/task_20260510_01.md` 有阿飞派的任务（新剧本+Seedance测试），但不在标准队列 `~/yan_queue.md` 里，所以本心跳不会自动执行。 追加心跳日志：
+[main/sessions/main/3ec3e6ae-bfec-4faf-9ed9-61e67b8e7a34.jsonl#L20] Assistant: HEARTBEAT_OK ⚠️ 发现异常：阿飞在 `~/comic_instructions/task_20260510_01.md` 放了任务（新剧本+Seedance参数验证），但没写入 `~/yan_queue.md`，所以本次自动轮询**未触发执行**。 状态摘要： - 队列：空 - 遗漏任务：`task_20260510_01` — 校园仙侠剧本 + Seedance 2.0 验证 - API：bailian-qwen 持续 403/429，deepseek 正常 - 技能目录：新增 `seedance_video
+[main/sessions/main/3f036f68-25dc-4b41-a2d5-c8957b782bfd.jsonl#L10] Assistant: 队列空，无新指令。 日志动态：bailian-qwen 持续 429（已在上轮心跳记录），deepseek 正常，生产无影响。 **HEARTBEAT_OK**
+[main/sessions/main/405373ef-48ce-4881-9348-9ea575979ce6.jsonl#L10] Assistant: 队列空，深夜静默无新指令。HEARTBEAT_OK。
+[main/sessions/main/42b3b161-160e-47d9-b1fe-5c491ff109dc.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/438bac04-7d5b-43a5-99ff-78eba2e33e26.jsonl#L11] Assistant: 队列空，无新指令。技能目录无变化。追加心跳日志。
+[main/sessions/main/466e9870-8137-44cf-b97b-1dabe4d4e9c4.jsonl#L8] Assistant: 信箱为空，没有新指令。检查一下工作日志最新状态。
+[main/sessions/main/466e9870-8137-44cf-b97b-1dabe4d4e9c4.jsonl#L11] Assistant: 日志最新动态： - **01:19** 心跳正常，队列空，16组技能稳定 - **01:00** API健康检查 deepseek 正常，bailian-qwen 有429告警（已记录） - **近期变更**：`seedance_video_gen.py` 00:10更新，`guofeng-drama` 00:38更新，`阿砚实战能力矩阵.md` 01:11更新，`AI漫剧100方法论.md` 01:07更新 - 日志 66KB 健康 HEARTBEAT_OK
+[main/sessions/main/481250e6-e0e3-4eba-998c-f70ad605a5f3.jsonl#L8] Assistant: 队列空，无需执行。顺手看一眼日志状态。
+[main/sessions/main/481250e6-e0e3-4eba-998c-f70ad605a5f3.jsonl#L10] Assistant: 日志无异常新动态。bailian-qwen 刚触发了 429 限流，deepseek 正常。日志 65KB 健康。 HEARTBEAT_OK
+[main/sessions/main/49f0c50a-0367-4bc9-a0ef-464c40c04bf7.jsonl#L10] Assistant: 队列空，无新指令。日志中 task_20260510_01 仍待飞哥手动处理，无其他新动态。 HEARTBEAT_OK
+[main/sessions/main/4a2ebf7b-d528-452e-8911-d1028cd7c85e.jsonl#L8] Assistant: `~/yan_queue.md` 为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/5309fa64-e09e-42dd-b7df-df9ca1dc7057.jsonl#L10] Assistant: 队列空，无新指令。日志最新两笔心跳正常（01:00 / 01:19），bailian-qwen 有 429 告警已记录，deepseek 主线正常。日志 66KB 健康。 HEARTBEAT_OK
+[main/sessions/main/588425d1-7574-41ec-b926-9ac3b4832da4.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/60412341-866d-467b-bd1e-6e224342e083.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/61c9ba33-aaef-4fe2-b43b-3a69621f0233.jsonl#L10] Assistant: 信箱空，无新指令。留意到几个动态： - 🆕 `AI漫剧100方法论.md` (01:07) — 阿飞新放的方法论文档 - 🆕 `阿砚实战能力矩阵.md` (01:11) — 刚落地，可能是技能能力盘点 - ⚠️ `bailian-qwen` 前次心跳报 HTTP 429，deepseek 正常 HEARTBEAT_OK
+[main/sessions/main/647b42ce-a500-4baf-9531-fd8262275379.jsonl#L11] Assistant: 队列空，无新指令。阿飞昨晚更新了 `guofeng-drama` 技能（陷阱#38修复）和新增 `seedance_video_gen.py`，日志已有记录。 HEARTBEAT_OK
+[main/sessions/main/64a06590-3b33-4e34-b3c0-d795db27dc4a.jsonl#L9] Assistant: 队列空，无新指令。最近三次心跳正常，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/670f46fd-2e45-47d9-943e-7cfe7c55d505.jsonl#L10] Assistant: 队列空，无新指令。 上次心跳记录的遗漏任务 `task_20260510_01`（`~/comic_instructions/task_20260510_01.md`）仍未进入 `yan_queue.md`，飞哥需手动拉入或确认。 写日志：
+[main/sessions/main/6a075da9-f4f8-4528-9227-4e14da9f73d2.jsonl#L8] Assistant: 队列为空，没有新指令。检查下工作日志最近动态。
+[main/sessions/main/72debd6c-d932-47d7-a982-d679e36cc521.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/77ddd2d3-e93c-4fac-a453-6a576417d021.jsonl#L8] Assistant: 队列清空，无新指令。
+[main/sessions/main/77ddd2d3-e93c-4fac-a453-6a576417d021.jsonl#L10] Assistant: 日志正常，深夜一切平静。追加本次心跳记录。
+[main/sessions/main/790bd759-2d8e-479f-9cff-b541c974aad3.jsonl#L8] Assistant: 队列为空，无新指令。快速看一眼工作日志最近动态：
+[main/sessions/main/790bd759-2d8e-479f-9cff-b541c974aad3.jsonl#L10] Assistant: **队列：空** ✅ | 日志最近两条心跳正常，无新动态。 HEARTBEAT_OK
+[main/sessions/main/008d74db-3602-4811-bc48-a4b3750860fa.jsonl#L8] Assistant: 信箱为空，无新指令。检查一下工作日志近况。
+[main/sessions/main/008d74db-3602-4811-bc48-a4b3750860fa.jsonl#L11] Assistant: 日志动态：bailian-qwen 持续 429 限流，deepseek 正常。无异常任务积压。 HEARTBEAT_OK
+[main/sessions/main/013d1aa2-fb3c-4a59-9296-1cc0ba05d96c.jsonl#L10] Assistant: 队列为空，无需执行。追加一条心跳日志。
+[main/sessions/main/013d1aa2-fb3c-4a59-9296-1cc0ba05d96c.jsonl#L12] Assistant: HEARTBEAT_OK.
+[main/sessions/main/01d38404-068c-4d05-9c3d-8a810c9a8f15.jsonl#L8] Assistant: 队列为空，没有新指令。
+[main/sessions/main/01d38404-068c-4d05-9c3d-8a810c9a8f15.jsonl#L10] Assistant: 队列空。日志正常：bailian-qwen 持续 429，deepseek 稳定。无新指令。 HEARTBEAT_OK
+[main/sessions/main/02a428d9-1c11-40b9-b14b-55545e2ccc41.jsonl#L9] Assistant: 队列空，无新指令。追加本轮心跳日志。
+[main/sessions/main/02a428d9-1c11-40b9-b14b-55545e2ccc41.jsonl#L12] Assistant: 有新的动态——技能目录新增了几个文件。追加日志并报告。
+[main/sessions/main/02a428d9-1c11-40b9-b14b-55545e2ccc41.jsonl#L14] Assistant: HEARTBEAT_OK 📋 本轮摘要： - **指令信箱**：空，无新指令 - **技能目录**：新增 8 项（驱魔录风格蒸馏、seedance脚本、kling_api目录、悟空脚本、流程清单、能力矩阵、100方法论等） - **bailian-qwen 403**：持续告警中（未消除） - **日志**：106KB，健康，未超1MB阈值
+[main/sessions/main/02dec6b6-2ba9-4858-ae7a-793bd5dafa78.jsonl#L9] Assistant: 信箱为空，没有阿飞的新指令。 日志最后更新是今天 12:30 的「魔因漫创部署报告」，已有 6.5 小时未变化，无异常。 HEARTBEAT_OK
+[main/sessions/main/031db875-e700-4b5e-90b7-8a46a9c106ab.jsonl#L10] Assistant: 信箱为空，无需执行。 📋 动态速记：bailian-qwen 在 13:00 报了 429，deepseek 正常；国风工作流 JSON 已就绪。 HEARTBEAT_OK
+[main/sessions/main/03e61bce-c286-46c2-add8-810b4070f08d.jsonl#L9] Assistant: 信箱为空，无新指令。 日志动态：bailian-qwen 持续 429 限流，deepseek 健康正常。这是已知状态，无需告警。 **HEARTBEAT_OK**
+[main/sessions/main/042e47b0-f521-44e1-a75c-0e8733079c91.jsonl#L11] Assistant: **HEARTBEAT_OK** 📭 信箱空，无新指令。 📋 日志动态：今日 bailian-qwen 持续 429（16:00/17:00 两次告警），deepseek 正常。无新技能产出。
+[main/sessions/main/04611a0d-b344-4e3c-9047-370f0760904d.jsonl#L8] Assistant: 队列为空，无新指令。检查工作日志：
+[main/sessions/main/04611a0d-b344-4e3c-9047-370f0760904d.jsonl#L10] Assistant: 📋 **队列检查完成**：无新指令。 **日志动态**：bailian-qwen 连续报 HTTP 429（频率限制），deepseek 主模型健康。备选模型暂时不可用，但主力正常，不紧急。 HEARTBEAT_OK
+[main/sessions/main/05513dd6-5c67-49b5-b9fe-4bd07ebef71b.jsonl#L9] Assistant: 队列为空，无新指令。追加本轮心跳日志。
+[main/sessions/main/05513dd6-5c67-49b5-b9fe-4bd07ebef71b.jsonl#L13] Assistant: HEARTBEAT_OK 📊 本轮状态： - 指令信箱：空 - 日志大小：81KB（健康） - 技能目录：18个 - bailian-qwen 403：仍持续（第21轮），主力模型 deepseek-v4-pro 正常运行
+[main/sessions/main/05618325-4af1-4096-9b52-2d17fda0ce47.jsonl#L8] Assistant: 信箱为空，没有新指令。看一眼工作日志状态。
+[main/sessions/main/05618325-4af1-4096-9b52-2d17fda0ce47.jsonl#L10] Assistant: 日志正常（87行/3.7K，远低于1MB阈值）。注意到一条动态：今天14:00 bailian-qwen 返回 HTTP 429，deepseek 正常。但这属于技术监控范畴，阿飞那边应该已知情。 HEARTBEAT_OK
+[main/sessions/main/0610d50d-1729-4e86-8a10-403a9434843c.jsonl#L10] Assistant: 信箱为空，无新指令。日志最近一条是今天 22:30 的黑悟空剧本v2深化记录，状态正常。 HEARTBEAT_OK
+[main/sessions/main/06a2d894-540f-4080-8550-73b3d9b257b1.jsonl#L12] Assistant: **信箱检查：** `~/yan_queue.md` 为空 — 无新指令。 **日志动态：** - ⚠️ **bailian-qwen 持续 429** — 从 13:00 到 19:00，连续 7 小时返回 HTTP 429，备用模型不可用。deepseek 正常。 - 📦 **api-failover 技能已到位**（18:07 更新），正好应对这个场景。 HEARTBEAT_OK
+[main/sessions/main/078cd454-2d9c-4d39-92a3-3f722919d735.jsonl#L9] Assistant: 信箱为空，没有新指令。 日志动态：bailian-qwen 持续返回 429 限流，deepseek 正常。例行健康检查在跑，无需干预。 HEARTBEAT_OK
+[main/sessions/main/07a0c840-d2e8-43f0-bb81-a7e78c2d64d0.jsonl#L8] Assistant: 信箱为空，无需执行指令。HEARTBEAT_OK。
+[main/sessions/main/084bf9e7-d6ba-407b-94d6-650620bb5f47.jsonl#L11] Assistant: HEARTBEAT_OK - `~/yan_queue.md` 为空，无需执行指令。 - 日志动态：bailian-qwen 持续 429 限流（15:00-19:00 连续4小时），deepseek 正常。备用模型当前不可用，但主力 deepseek-v4-pro 健康，不影响业务。
+[main/sessions/main/0873b8fd-8d47-4087-a552-386f7f0fea0e.jsonl#L8] Assistant: 队列空，无新指令。再扫一眼工作日志看有无新动态：
+[main/sessions/main/0873b8fd-8d47-4087-a552-386f7f0fea0e.jsonl#L10] Assistant: 凌晨安静，队列为空，日志仅有例行心跳记录，无新动态。 HEARTBEAT_OK
+[main/sessions/main/08a0ffef-0c45-4107-94b5-c248aa15b5e9.jsonl#L10] Assistant: 队列空，无待处理指令。日志正常，deepseek 主路正常，深夜静默。 HEARTBEAT_OK
+[main/sessions/main/09257c21-284b-44ce-a4bf-3bc450f9ee1e.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一下工作日志近况。
+[main/sessions/main/09257c21-284b-44ce-a4bf-3bc450f9ee1e.jsonl#L10] Assistant: 信箱空，无新指令。日志记录： - bailian-qwen 下午 15:00 报 429，备用模型暂时不可用 - deepseek 主力模型正常 **HEARTBEAT_OK**
+[main/sessions/main/097ab409-5cdf-41bf-9011-7aeef280ed23.jsonl#L9] Assistant: 信箱为空，无新指令。 **日志动态：** bailian-qwen 持续返回 429（今日 14:00 起已2次告警），deepseek 正常。api-failover 应在处理中。 HEARTBEAT_OK
+[main/sessions/main/099e4f14-3629-4dd7-a3d0-0c201e2e349f.jsonl#L11] Assistant: 队列空，无新指令。发现日志中的动态： - ⚠️ `bailian-qwen` 在 10:00 返回 HTTP 429（限流），但主力 `deepseek` 正常——无需切换 - 技能目录有更新：`dual-agent-sop`（06:03）、`guofeng-drama`（01:58）最近修改 - `阿砚实战能力矩阵.md`、`AI漫剧100方法论.md` 两个新文档出现在技能目录 追加心跳日志：
+[main/sessions/main/09caa0ef-a46a-4de3-b488-393d713e77cc.jsonl#L14] Assistant: **HEARTBEAT_OK** 📭 指令信箱 `~/yan_queue.md` — 空，无新指令。 📋 日志动态： - **bailian-qwen 持续 429**：全天每小时健康检查均报 HTTP 429，已持续超10小时，备用API不可用 - **deepseek 正常**：HTTP 200 全线绿灯 - **黑悟空 Seedance 6段**：23:06 完成，72MB，全部成功 ⚠️ 关注项：bailian-qwen 需飞哥/阿飞排查（可能是额度或限流），目前仅 deepseek 单路存活。
+[main/sessions/main/0a7c493a-a030-4e43-a776-94fc938e636e.jsonl#L10] Assistant: 队列为空，无新指令。日志动态：bailian-qwen 持续返回 429，deepseek 正常。无需干预。 HEARTBEAT_OK
+[main/sessions/main/0abb1750-256f-4d2d-8c3c-64dc0b615cee.jsonl#L8] Assistant: 信箱为空，无新指令。检查下工作日志看看有没有新动态：
+[main/sessions/main/0abb1750-256f-4d2d-8c3c-64dc0b615cee.jsonl#L11] Assistant: 日志状态正常，3.7KB 远未到归档线。 📊 **动态摘要：** - `bailian-qwen` 持续返回 HTTP 429（限流），最近一次 14:00 - `deepseek` 主力模型稳定，HTTP 200 正常 - 备用模型不可用但主力健康，暂不影响业务 HEARTBEAT_OK
+[main/sessions/main/0ac00706-abc5-4f98-8804-fbea09505705.jsonl#L8] Assistant: 队列空，无新指令。HEARTBEAT_OK。
+[main/sessions/main/0d245434-57da-4f3c-9e69-a7c8f640f832.jsonl#L9] Assistant: `~/yan_queue.md` 为空，无新指令。 **日志动态：** bailian-qwen 持续返回 HTTP 429（今日 17:00、18:00 两次记录），deepseek 正常。疑似阿里云百炼配额/限流问题，但不影响当前主力模型运行。 HEARTBEAT_OK
+[main/sessions/main/0d3d373d-066a-4b83-9c85-889ec9707a16.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/0d3d373d-066a-4b83-9c85-889ec9707a16.jsonl#L10] Assistant: 日志正常。今日动态：`guofeng-drama` 技能目录有更新（12:28），bailian-qwen 17:00 出现 429 已被降级处理，deepseek 正常。 HEARTBEAT_OK
+[main/sessions/main/0db1b9e1-ee40-4647-bdd5-686b284515b3.jsonl#L12] Assistant: 队列空，技能目录无新变动，日志健康。HEARTBEAT_OK。
+[main/sessions/main/0e5ce661-4c21-4703-a8d1-0bae558366b1.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/0e5ce661-4c21-4703-a8d1-0bae558366b1.jsonl#L12] Assistant: 日志 2.8K，近期无新动态。一切正常。 **HEARTBEAT_OK**
+[main/sessions/main/0e949ff6-dd8a-4cb8-966f-3693d52163af.jsonl#L8] Assistant: 信箱为空，无新指令。快速检查下工作日志最近状态：
+[main/sessions/main/0e949ff6-dd8a-4cb8-966f-3693d52163af.jsonl#L10] Assistant: 记录到：bailian-qwen 在 11:00 报了 HTTP 429。追加本轮心跳日志：
+[main/sessions/main/0e949ff6-dd8a-4cb8-966f-3693d52163af.jsonl#L12] Assistant: HEARTBEAT_OK 📊 本轮摘要： - **信箱**：空，无新指令 - **日志**：104KB，健康（< 1MB） - **API 状态**：deepseek ✅ | bailian-qwen ⚠️ 上轮 HTTP 429（非首次，持续观察中） - **新动态**：无异常
+[main/sessions/main/0edc9186-4d62-490e-9f1c-fa75c854a44f.jsonl#L8] Assistant: 信箱为空，没有新指令。再看看工作日志有没有动态。
+[main/sessions/main/0edc9186-4d62-490e-9f1c-fa75c854a44f.jsonl#L11] Assistant: **HEARTBEAT_OK** 信箱空，无阿飞新指令。 📊 日志动态记录： - **bailian-qwen 持续 429**：从今日 13:00 起每小时一次 429 限流，已持续 7 小时。deepseek 一路正常（HTTP 200）。 - 共享技能目录无新增，最近更新 `guofeng-drama`（今日 12:28）、`api-failover`（今日 18:07）。
+[main/sessions/main/0fbda9a1-ce01-479a-adf1-7f5bc51d500a.jsonl#L9] Assistant: 信箱空空，无新指令。 日志动态：bailian-qwen 持续返回 429，deepseek 正常。非新问题，无需干预。 **HEARTBEAT_OK**
+[main/sessions/main/1050be57-f61d-4315-9db2-c4cd5009eea2.jsonl#L10] Assistant: 队列空，无新指令。日志 99KB，增长平稳，无异常。 HEARTBEAT_OK
+[main/sessions/main/107d3da5-b9e5-4bc7-90a2-a6f84a20f616.jsonl#L10] Assistant: 队列空，无新指令。日志正常，bailian-qwen 持续 429 限流，deepseek 正常。HEARTBEAT_OK
+[main/sessions/main/1132caf8-ce54-4472-a25a-af75f8080093.jsonl#L11] Assistant: 队列为空，无新指令。快速看下近期工作日志和技能目录动态：
+[main/sessions/main/1132caf8-ce54-4472-a25a-af75f8080093.jsonl#L13] Assistant: 队列为空，无阿飞新指令。工作日志记录正常，技能目录持续有更新（最近：驱魔录_风格蒸馏.md 11:07）。 HEARTBEAT_OK
+[main/sessions/main/11f003fa-08e0-4bcd-83bd-005362e8cfbf.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/12003b5b-efed-4592-83f4-48510daa7bc4.jsonl#L10] Assistant: 队列为空，无新指令。 日志动态：bailian-qwen 连续两小时返回 HTTP 429，deepseek 主力通道正常（HTTP 200）。 HEARTBEAT_OK
+[main/sessions/main/120761f0-d85f-4f05-b9e3-4afd4dda0742.jsonl#L8] Assistant: 信箱为空，无新指令。快速巡检一下日志和技能目录。
+[main/sessions/main/120761f0-d85f-4f05-b9e3-4afd4dda0742.jsonl#L10] Assistant: 一切正常，追加本次心跳日志。
+[main/sessions/main/120761f0-d85f-4f05-b9e3-4afd4dda0742.jsonl#L12] Assistant: HEARTBEAT_OK | 项目 | 状态 | |------|------| | 指令信箱 | 空 | | bailian-qwen | 429 持续（第7轮） | | deepseek | 正常 | | 技能就位 | dual-agent-sop ✅ / guofeng-drama ✅ | | 日志 | 99KB，健康 |
+[main/sessions/main/133f93e7-f210-4c4b-bb4a-92f040675930.jsonl#L8] Assistant: 信箱为空，没有新指令。检查下工作日志和技能目录有没有新动态。
+[main/sessions/main/133f93e7-f210-4c4b-bb4a-92f040675930.jsonl#L11] Assistant: HEARTBEAT_OK 📊 11:20 心跳简报： - **信箱**：空，无待执行指令 - **技能目录**：11项，今日新增 `驱魔录_风格蒸馏.md`(11:07)，`dual-agent-sop`、`guofeng-drama` 同日更新 - **日志**：105KB 健康，今日已有心跳记录 - **告警**：`bailian-qwen 403` 持续中，待阿飞处理
+[main/sessions/main/13740d21-2bc0-42b8-a511-6cd017e5c38d.jsonl#L11] Assistant: **信箱：空** → 无新指令。 **日志动态：** - 今日 `bailian-qwen` 持续 429 限流（07:00 / 16:00 两次），`deepseek` 正常。 - 魔因漫创部署报告已写入日志（12:30），非新事件。 无待办事项。 **HEARTBEAT_OK**
+[main/sessions/main/13f57b61-a046-4547-9b83-389d7d35fb72.jsonl#L10] Assistant: 信箱为空，无新指令。日志末尾是之前魔因漫创相关的文件记录，无新动态。 HEARTBEAT_OK
+[main/sessions/main/148be536-348b-4ee4-9fc3-7b00fda4b8b9.jsonl#L8] Assistant: 队列为空，无新指令。HEARTBEAT_OK。
+[main/sessions/main/15af7886-2057-4b90-b2bd-b4aed7649989.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/16ecad43-2839-4fbe-aba0-46dcb5d2d9c7.jsonl#L10] Assistant: 队列空，无阿飞新指令。 日志动态：bailian-qwen 今天多次 429 限流，deepseek 正常。已记录。 HEARTBEAT_OK
+[main/sessions/main/174f4608-0a8b-4baa-9df8-c2563c918253.jsonl#L10] Assistant: **HEARTBEAT_OK** - 📭 指令信箱 `~/yan_queue.md` — 空，无新指令 - 📋 日志动态：api-failover 持续检测到 `bailian-qwen` 返回 HTTP 429（两小时内两次），`deepseek` 正常。降级系统应已自动处理，无需干预。
+[main/sessions/main/18861a08-36a8-4c2d-8511-249f8f423437.jsonl#L8] Assistant: 队列为空，没有新指令。快速扫一眼日志和技能目录有没有新动态。
+[main/sessions/main/18861a08-36a8-4c2d-8511-249f8f423437.jsonl#L10] Assistant: 📋 动态： - 🟢 队列空，无待执行指令 - ⚠️ bailian-qwen 持续 429 限流（已记录），deepseek 健康 - 📦 技能更新：`api-failover`（18:07）、`guofeng-drama`（12:28） HEARTBEAT_OK
+[main/sessions/main/18b1aa32-af3c-4c0a-8a91-f1add92e9af6.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/18b1aa32-af3c-4c0a-8a91-f1add92e9af6.jsonl#L10] Assistant: HEARTBEAT_OK 📊 日志动态： - `13:00` bailian-qwen 触发 HTTP 429 限流，deepseek 正常 - `13:00` 国风工作流 JSON 已就绪，LLM text encoder / VAE 后台下载中 - 无新指令，信箱空
+[main/sessions/main/1968103b-9079-4f52-90de-ffeebb9c0ab5.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。 HEARTBEAT_OK
+[main/sessions/main/196833ec-4efd-4ac4-8f11-fbb79398b900.jsonl#L10] Assistant: 队列空，无新指令。日志有今天中午的魔因漫创部署报告，无异常。 **HEARTBEAT_OK**
+[main/sessions/main/1a707b31-6b93-4589-b4ef-8e72d29bd6f8.jsonl#L8] Assistant: 信箱为空，无需处理。 顺手看一眼工作日志末尾：
+[main/sessions/main/1a707b31-6b93-4589-b4ef-8e72d29bd6f8.jsonl#L10] Assistant: 日志动态：`bailian-qwen` 持续 429 限流，`deepseek` 正常。api-failover 技能已在工作。 HEARTBEAT_OK
+[main/sessions/main/1ab2b3f3-0184-4165-87e1-53bb03dfe0de.jsonl#L12] Assistant: 队列空，无新指令。技能目录近期有更新（`dual-agent-sop`, `guofeng-drama`, `seedance_video_gen.py`, `gen_wukong.sh` 等），之前轮次已记录。日志 97KB 健康。
+[main/sessions/main/1b34e740-4940-42ea-9768-be401700f9dd.jsonl#L9] Assistant: yan_queue.md 返回的是图片，让我直接看文件内容。
+[main/sessions/main/1b34e740-4940-42ea-9768-be401700f9dd.jsonl#L11] Assistant: **信箱空。** `~/yan_queue.md` 无新指令。 **日志动态：** - `23:00` — API 健康检查 deepseek 正常 - `23:06` — 黑悟空 Seedance 6段图生视频全部成功（~420s, 72MB, shot_01~06.mp4） 无待办事项。 HEARTBEAT_OK
+[main/sessions/main/1b4c4cf6-f4af-45b3-a4ee-cc763814f2a5.jsonl#L8] Assistant: 指令信箱为空，没有新任务。快速看一眼工作日志近况。
+[main/sessions/main/1ba56c71-ca8e-4540-b5df-4eeb4b51eca1.jsonl#L9] Assistant: 信箱为空，无新指令。 📋 日志观察：`bailian-qwen` 今日多次 429 限流（12:00 / 20:00 / 21:00），`deepseek` 正常。备用路由已处于事实降级状态。 HEARTBEAT_OK
+[main/sessions/main/1c61b720-07ec-45fe-b112-9e37f23ede76.jsonl#L10] Assistant: 信箱为空，无新指令。 日志动态：bailian-qwen 持续 429，deepseek 正常。例行监控，无需干预。 **HEARTBEAT_OK**
+[main/sessions/main/1cf05eb4-b120-468a-93c5-58814b8dbb79.jsonl#L10] Assistant: 队列空，日志健康（74KB，离1MB还远）。bailian-qwen 持续429，上次心跳已记录。 HEARTBEAT_OK
+[main/sessions/main/1d00f844-dbc8-4c8e-9022-622ba1a293e3.jsonl#L8] Assistant: 信箱为空，无新指令。快速巡检一下系统状态。
+[main/sessions/main/1d00f844-dbc8-4c8e-9022-622ba1a293e3.jsonl#L11] Assistant: 一切正常，追加本轮心跳日志。
+[main/sessions/main/1d00f844-dbc8-4c8e-9022-622ba1a293e3.jsonl#L13] Assistant: HEARTBEAT_OK 📊 本轮摘要：队列空，deepseek 正常，bailian 429 持续（第9轮），技能目录无新动态，日志 99KB 健康。
+[main/sessions/main/1d03205c-c89b-46f1-a93a-2cdaf520ccc7.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK.
+[main/sessions/main/1d9d8afb-230b-44ed-8911-a108b824cf7e.jsonl#L8] Assistant: 信箱为空，没有新指令。再扫一眼日志和技能目录有无异常。
+[main/sessions/main/1d9d8afb-230b-44ed-8911-a108b824cf7e.jsonl#L10] Assistant: 一切正常：信箱空，日志 6.2KB 健康增长，技能目录无变动。 **HEARTBEAT_OK**
+[main/sessions/main/1e6f2123-24cd-4765-bcf7-d52db372f138.jsonl#L10] Assistant: 信箱为空，无新指令。日志无异常动态。 HEARTBEAT_OK
+[main/sessions/main/1ed56028-3f2b-413c-8a13-0fa344ae0e57.jsonl#L8] Assistant: 队列空，没有新指令。快速检查一下日志和技能目录的动态。
+[main/sessions/main/1ed56028-3f2b-413c-8a13-0fa344ae0e57.jsonl#L14] Assistant: **HEARTBEAT_OK** 🟢 队列空，无待办。近期动态： | 项目 | 时间 | 状态 | |------|------|------| | 魔因漫创部署 | 今天 12:30 | 阿飞已完成部署报告 | | `guofeng-drama` 技能 | 今天 12:28 | 更新 | | `moyin_cli.py` | 今天 12:22 | 更新 | | `dual-agent-sop` | 今天 11:44 | 更新 | | `wukong_v2` 输出 | 今天 00:37 | 有新产出 | 一切正常，无异常告
+[main/sessions/main/1f7e30a8-d757-4e62-acea-68ea99c7cea6.jsonl#L11] Assistant: **📬 信箱检查：** 空，无新指令。 **📋 日志动态（2026-05-10）：** | 时间 | 事件 | |------|------| | 12:30 | 阿飞完成魔因漫创部署 + `moyin_cli.py` 交付 | | 12:44 | 魔因漫创 v0.2.6 桌面安装包落盘 | | 13:00~18:00 | ⚠️ bailian-qwen 持续 429，已6小时 | | 全天 | ✅ deepseek 健康，ComfyUI :8188 运行中 | **⚠️ 注意：** bailian-qwen 今日连续6
+[main/sessions/main/1f9c7b47-6c37-4f37-80ad-a807a031ee3d.jsonl#L8] Assistant: 队列为空，无新指令。检查一下工作日志最近的动态。
+[main/sessions/main/1f9c7b47-6c37-4f37-80ad-a807a031ee3d.jsonl#L10] Assistant: 队列空，无新指令。日志最近动态正常——黑悟空Seedance 6段图生视频全部成功，无异常。 **HEARTBEAT_OK**
+[main/sessions/main/1ffc7cc5-9a94-4317-b117-1d9218046b53.jsonl#L8] Assistant: 指令信箱为空，无新任务。再瞄一眼工作日志近期动态。
+[main/sessions/main/1ffc7cc5-9a94-4317-b117-1d9218046b53.jsonl#L10] Assistant: 日志最近几轮心跳都正常，一切安静。写入本轮心跳记录。
+[main/sessions/main/2003c170-8209-4140-9b46-33b88f1770e8.jsonl#L10] Assistant: HEARTBEAT_OK - 队列空，无阿飞新指令 - deepseek 正常，bailian-qwen 持续 429（api-failover 已覆盖） - 日志 108KB，健康增长中
+[main/sessions/main/209970f0-d689-43b9-b8c5-23dda7f96767.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。快速扫一眼日志动态。
+[main/sessions/main/209970f0-d689-43b9-b8c5-23dda7f96767.jsonl#L10] Assistant: **HEARTBEAT_OK** — 2026-05-10 13:02 CST | 检查项 | 状态 | |--------|------| | 信箱 `~/yan_queue.md` | 空，无待办 | | deepseek 主力 | ✅ HTTP 200 | | bailian-qwen 备用 | ❌ HTTP 429 （13:00 限流） | | 新技能 | 无新增 | | 工作日志 | 正常增长 | 备忘：bailian-qwen 今天下午1点出现过一次 429，不影响主力 deepseek，暂时不用动。
+[main/sessions/main/213ddaac-b3b6-4899-8615-a82a3a2803c1.jsonl#L8] Assistant: 队列为空。快速扫一眼日志和技能目录有无新动态。
+[main/sessions/main/213ddaac-b3b6-4899-8615-a82a3a2803c1.jsonl#L12] Assistant: 队列空，无新指令。日志73KB正常。bailian-qwen持续429中（已知问题）。技能目录稳定，无异常。 HEARTBEAT_OK
+[main/sessions/main/235d1bb2-8a9b-4778-b5ec-a497ae2d3489.jsonl#L10] Assistant: 队列空，凌晨安静，无新指令。 HEARTBEAT_OK
+[main/sessions/main/237e0005-4ded-4b62-937c-06e631138297.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/243eee85-ce9a-486d-b00b-00750942f274.jsonl#L8] Assistant: 信箱为空，没有新指令。快速检查一下日志动态。
+[main/sessions/main/243eee85-ce9a-486d-b00b-00750942f274.jsonl#L10] Assistant: **HEARTBEAT_OK** - 信箱 `~/yan_queue.md` — 空，无新指令 - 日志 `~/comic_work.log` — 4.8K，健康增长中 - 动态记录：`bailian-qwen` 今天持续返回 429，`deepseek` 正常。无需干预，备用路由已生效。
+[main/sessions/main/247fa77f-6deb-42f0-8489-9a3c2dc57667.jsonl#L8] Assistant: 队列为空，无新指令。快速检查下工作日志有无新动态：
+[main/sessions/main/247fa77f-6deb-42f0-8489-9a3c2dc57667.jsonl#L10] Assistant: 日志最近两轮心跳都正常，deepseek API 健康，bailian-qwen 上次报 429 已记录。无异常。 HEARTBEAT_OK
+[main/sessions/main/25191d51-b774-42ed-af3d-db08e4570203.jsonl#L8] Assistant: 信箱为空，没有新指令。再看一眼工作日志。
+[main/sessions/main/25191d51-b774-42ed-af3d-db08e4570203.jsonl#L10] Assistant: **HEARTBEAT_OK** 📭 信箱空，无待执行指令。 📊 日志动态（2026-05-10 13:00）： - ❌ `bailian-qwen` API 429 限流 - ✅ `deepseek` 正常 - `guofeng-drama` 国风工作流 JSON 已就绪，LLM text encoder / VAE 后台下载中
+[main/sessions/main/259881da-c85b-4f53-a495-b268f0f956ca.jsonl#L12] Assistant: **HEARTBEAT_OK** - `~/yan_queue.md` — 空，无新指令 - `~/comic_work.log` — 今日有例行 API 健康检查记录：deepseek 正常 (200)，bailian-qwen 持续返回 429。别无新动态。
+[main/sessions/main/25a82602-06bc-4495-a64c-5874a3a6fda1.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。 HEARTBEAT_OK
+[main/sessions/main/2610164d-d1d9-4e8c-a8ac-fb9f569b7420.jsonl#L8] Assistant: Queue empty. Quick heartbeat check on work log.
+[main/sessions/main/2610164d-d1d9-4e8c-a8ac-fb9f569b7420.jsonl#L13] Assistant: HEARTBEAT_OK. 队列空，deepseek主力正常，bailian-qwen 429持续无影响。
+[main/sessions/main/263b7167-387e-4ff9-89d1-87da42c05531.jsonl#L10] Assistant: **信箱为空。** 没有阿飞的新指令。 日志动态：bailian-qwen 持续 429，deepseek 正常。已记录。 HEARTBEAT_OK
+[main/sessions/main/264cd7e8-9d19-4437-89b7-79c343b62046.jsonl#L8] Assistant: 队列空，无事。 HEARTBEAT_OK
+[main/sessions/main/264e8299-30e8-4228-9c06-1a6097f72e56.jsonl#L10] Assistant: 信箱为空，无新指令。 📋 **日志动态**：bailian-qwen 持续 429 限流（最新 18:00），deepseek 主路线正常。 HEARTBEAT_OK
+[main/sessions/main/2691402f-c981-49fc-a0bc-402a4fa8de44.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一眼工作日志最新动态。
+[main/sessions/main/2691402f-c981-49fc-a0bc-402a4fa8de44.jsonl#L11] Assistant: 日志稳定，技能目录无异常。深夜静默，一切正常。
+[main/sessions/main/27c1594b-73f8-4092-be66-41b80c664c4c.jsonl#L8] Assistant: 信箱空，没有阿飞的新指令。快速扫一眼工作日志。
+[main/sessions/main/27c1594b-73f8-4092-be66-41b80c664c4c.jsonl#L12] Assistant: HEARTBEAT_OK 📋 检查结果： - **信箱**：空，无阿飞新指令 - **日志**：3.7KB，健康 - **动态**：bailian-qwen 持续 429 限流（最近3次检查均失败），deepseek 正常。api-failover 已在处理降级。 --- ``` [2026-05-10 14:42] heartbeat | ✅ 正常 | bailian-qwen 429 ✗ → deepseek ✓ ```
+[main/sessions/main/28116f81-506a-433c-8ec2-28ca23dc115c.jsonl#L8] Assistant: 队列为空，无新指令。快速巡检一下日志状态。
+[main/sessions/main/28116f81-506a-433c-8ec2-28ca23dc115c.jsonl#L10] Assistant: 一切正常。写入本次心跳日志。
+[main/sessions/main/28116f81-506a-433c-8ec2-28ca23dc115c.jsonl#L12] Assistant: 队列空，无新指令。bailian-qwen 持续403（第21轮），deepseek正常，其余一切安静。 **HEARTBEAT_OK**
+[main/sessions/main/289cc4b3-37e9-4b1c-9aa7-3483cdef417d.jsonl#L8] Assistant: 队列为空，没有阿飞的新指令。检查下日志有无新动态。
+[main/sessions/main/289cc4b3-37e9-4b1c-9aa7-3483cdef417d.jsonl#L10] Assistant: 一切正常，没有新动态。记录本次心跳。
+[main/sessions/main/28c89ca4-0921-410e-b3f3-774d9184899b.jsonl#L9] Assistant: 信箱空，无新指令。快速检查下日志状态和技能目录：
+[main/sessions/main/28c89ca4-0921-410e-b3f3-774d9184899b.jsonl#L11] Assistant: 信箱空，无新指令。发现技能目录有新文件产出。追加心跳日志：
+[main/sessions/main/28c89ca4-0921-410e-b3f3-774d9184899b.jsonl#L13] Assistant: HEARTBEAT_OK 📊 本次检查摘要： - **指令信箱**：空，无新指令 - **工作日志**：79KB，健康（阈值1MB） - **技能目录**：10个条目，发现阿飞今日新产出——`guofeng-drama` 凌晨1:58更新、新增 `阿砚实战能力矩阵.md`、`AI漫剧100方法论.md`、`seedance_video_gen.py` 等工具/方法论文件 - **告警**：无
+[main/sessions/main/28d4819e-b0a5-483e-bdd1-770f5192355b.jsonl#L8] Assistant: 队列为空，没有阿飞的新指令。 HEARTBEAT_OK
+[main/sessions/main/293eeefb-a3a7-4283-b095-db21f0b54972.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一眼工作日志。
+[main/sessions/main/293eeefb-a3a7-4283-b095-db21f0b54972.jsonl#L10] Assistant: 队列空，无新指令。 📋 **日志动态**：bailian-qwen 今天持续 429（12:00/13:00 UTC + 21:00 本地），deepseek 正常。无生产活动新条目。 HEARTBEAT_OK
+[main/sessions/main/29462d06-3e46-4a71-aa79-5d4e686f090d.jsonl#L10] Assistant: 信箱为空，没有新指令。再检查一下日志和技能目录有没有新动态。
+[main/sessions/main/29462d06-3e46-4a71-aa79-5d4e686f090d.jsonl#L12] Assistant: HEARTBEAT_OK 📊 **心跳摘要 2026-05-10 23:29 CST** - 信箱：空，无待办 - 近期动态：黑悟空 Seedance 6段图生视频已成功（23:06），72MB全部产出 - 技能目录：无新建技能（guofeng-drama、api-failover、dual-agent-sop 均为今日更新） - 状态：一切正常 ✅
+[main/sessions/main/29943912-5074-4cbe-8e44-3bad8280fd39.jsonl#L9] Assistant: 队列为空，无新指令。追加本轮心跳日志。
+[main/sessions/main/29943912-5074-4cbe-8e44-3bad8280fd39.jsonl#L11] Assistant: HEARTBEAT_OK — 队列空，凌晨安静，无新指令。
+[main/sessions/main/29e5277f-9242-4022-ade7-a5e71db342a8.jsonl#L13] Assistant: 队列空，无新指令。 📊 **状态**：bailian-qwen 从昨天的 403 变成了今天的 429（限流），deepseek 正常。技能目录之前新增了 `阿砚实战能力矩阵.md` 和 `AI漫剧100方法论.md`（已在 10:00 轮记录）。日志 98KB，健康。 HEARTBEAT_OK
+[main/sessions/main/2a2bef96-7093-41b8-98e7-5efb63d1da66.jsonl#L11] Assistant: 📋 **信箱为空** — 无新指令。 📊 **日志新动态** (2026-05-10): - **12:30** 阿飞完成魔因漫创逆向分析 + Python CLI 工具 (`~/comic_skills/moyin_cli.py`) 部署 - **12:44** 魔因漫创桌面版 v0.2.6 安装包已就绪 (`C:\Users\Administrator\Desktop\moyin-creator-0.2.6-setup.exe`) - **13:00** API 健康检查：bailian-qwen ❌ (429 限流
+[main/sessions/main/2b039f63-f4b1-4c00-940a-25fff4a95529.jsonl#L11] Assistant: 信箱空，无新指令。 📊 **动态速记**： - `bailian-qwen` 今天 16:00 出现 HTTP 429，deepseek 正常 - 日志 4.1K，健康 - `~/comic_skills/` 近期有更新：`guofeng-drama`、`dual-agent-sop`、`seedance_video_gen.py`、`驱魔录_风格蒸馏.md` 等 HEARTBEAT_OK
+[main/sessions/main/2d028710-f708-4186-94bf-dd48688f3641.jsonl#L8] Assistant: 信箱为空，无新指令。快速巡检一下日志和技能目录。
+[main/sessions/main/2d028710-f708-4186-94bf-dd48688f3641.jsonl#L10] Assistant: 日志有新动态：**bailian-qwen 在 12:00 触发了 HTTP 429 限流**，deepseek 正常。api-failover 技能已就位，应该会自动处理降级。 记录心跳并追加日志。
+[main/sessions/main/2d028710-f708-4186-94bf-dd48688f3641.jsonl#L12] Assistant: **HEARTBEAT_OK** - 队列空，无阿飞新指令 - ⚠️ 注意到 `bailian-qwen` 12:00 触发 HTTP 429，deepseek 正常，`api-failover` 技能已就位 - 日志 106KB，健康
+[main/sessions/main/2d32299d-70c5-4da6-a87b-c3ce68bce708.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一眼工作日志：
+[main/sessions/main/2d32299d-70c5-4da6-a87b-c3ce68bce708.jsonl#L10] Assistant: HEARTBEAT_OK。 **日志动态**：`bailian-qwen` 今天连续报 429（10:00 UTC / 18:00 CST / 19:00 CST），疑似被限流。`deepseek` 主路线正常（HTTP 200），不影响当前服务。
+[main/sessions/main/2d9e10b2-3563-422e-a03a-a70485c7001b.jsonl#L9] Assistant: 信箱为空，无新指令。日志最新动态是今天 12:30 的"魔因漫创部署报告"（阿飞已记录完整）。无异常。 HEARTBEAT_OK
+[main/sessions/main/2e24dd58-1e26-4569-bade-c4b50656a2c0.jsonl#L8] Assistant: 队列为空，无新指令。检查一下工作日志最近动态。
+[main/sessions/main/2e24dd58-1e26-4569-bade-c4b50656a2c0.jsonl#L11] Assistant: **2026-05-10 13:49 心跳检查** | 检查项 | 状态 | |--------|------| | 指令信箱 `yan_queue.md` | 空，无待办 | | DeepSeek API | ✅ 正常 | | Bailian-Qwen API | ⚠️ 13:00 触发 429 限流，已自动日志 | | 新技能/文件 | `guofeng-drama` 更新(12:28)、`moyin_cli.py` 新增(12:22)、`dual-agent-sop` 更新(11:44) | | 后台任务 | LLM 
+[main/sessions/main/2f26d0da-c950-41ad-907a-f0870110d0c2.jsonl#L10] Assistant: 信箱为空，无新指令。 📋 日志动态： - `bailian-qwen` 今天持续返回 HTTP 429，deepseek 正常。 - 其余无异常。 HEARTBEAT_OK
+[main/sessions/main/2fd8f472-959b-43aa-848e-158b2c2e5304.jsonl#L10] Assistant: 信箱空，无新指令。 日志动态：bailian-qwen 持续返回 429（限流），deepseek 正常。API 健康检查例行在跑，无需干预。 HEARTBEAT_OK
+[main/sessions/main/30139423-5e94-4dac-8c3b-965d7ad193af.jsonl#L10] Assistant: 队列空，无新指令。日志正常增长。 HEARTBEAT_OK
+[main/sessions/main/307d7ee0-df6c-4c9c-9ae8-0f1c7680c54a.jsonl#L9] Assistant: 信箱空，无新指令。日志观察到 **bailian-qwen 连续两小时 429 限流**（13:00、14:00），deepseek 正常。
+[main/sessions/main/307d7ee0-df6c-4c9c-9ae8-0f1c7680c54a.jsonl#L11] Assistant: 技能目录有今日更新（`guofeng-drama` 12:28, `moyin_cli.py` 12:22），无异常。 **HEARTBEAT_OK**
+[main/sessions/main/320a9709-9b52-4ac4-8229-aeb77497b987.jsonl#L11] Assistant: 队列空，无新指令。 📋 近期动态： - `驱魔录_风格蒸馏.md` 4分钟前刚落地 — 阿飞在做驱魔录风格蒸馏 - `阿砚实战能力矩阵.md` 今天凌晨更新 - `seedance_video_gen.py` 新增豆包视频生成脚本 HEARTBEAT_OK
+[main/sessions/main/322f2309-c2ad-4cd3-95f5-c8d714d47554.jsonl#L8] Assistant: 队列为空，没有新指令。快速瞄一眼工作日志有无新动态。
+[main/sessions/main/322f2309-c2ad-4cd3-95f5-c8d714d47554.jsonl#L10] Assistant: 队列空，无新指令。日志动态方面：bailian-qwen 今天 13:00 触发了 HTTP 429 限流，deepseek 正常。ComfyUI 相关组件在后台下载中。 HEARTBEAT_OK.
+[main/sessions/main/32abc73f-d34e-4c94-8a7d-4861808ae614.jsonl#L8] Assistant: `~/yan_queue.md` 为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/32ccbb50-d41b-4e5c-b092-50205470d4a6.jsonl#L10] Assistant: 信箱空，无新指令。日志显示 `bailian-qwen` 连续两次 429 限流，`deepseek` 正常。 HEARTBEAT_OK
+[main/sessions/main/33375c98-a8b1-4e65-bb3c-a9860c92cf49.jsonl#L8] Assistant: 信箱空，无新指令。检查下日志状态。
+[main/sessions/main/33375c98-a8b1-4e65-bb3c-a9860c92cf49.jsonl#L10] Assistant: 队列空，无新指令。日志 105KB 健康，距上次心跳仅6分钟无新动态。 HEARTBEAT_OK
+[main/sessions/main/33486e62-83ec-487e-aa54-c2e3853aa26e.jsonl#L8] Assistant: 信箱为空，无新指令。检查一下工作日志最近动态：
+[main/sessions/main/33486e62-83ec-487e-aa54-c2e3853aa26e.jsonl#L10] Assistant: 日志有动态：**bailian-qwen 持续 429 限流**（19:00 和 20:00 两次检查均报错），deepseek 保持健康。当前主力模型 deepseek/deepseek-v4-pro 不受影响。 无新指令，无待办。 HEARTBEAT_OK
+[main/sessions/main/3364aba0-581b-4be5-8c2f-a19fa3c0b6bb.jsonl#L10] Assistant: 队列空，无新指令。 今日新动态记录： - **阿飞 11:30**：驱魔录漫剧全蒸馏完成（BV1cRRNBWEqM → `驱魔录_风格蒸馏.md`），产出7600字风格参考 + 30秒武侠模板 - **技能活跃**：dual-agent-sop + guofeng-drama 10:44更新，驱魔录风格蒸馏 11:07新增 - **API状态**：bailian-qwen 持续429限流，deepseek主线正常 - **日志**：106KB，健康 HEARTBEAT_OK
+[main/sessions/main/33a2f3bd-f632-41fd-be6d-090ee7780bb3.jsonl#L10] Assistant: 队列空，无新指令。今日动态：驱魔录_风格蒸馏.md(11:07)、guofeng-drama/dual-agent-sop更新。日志105KB，技能11项，一切正常。 HEARTBEAT_OK
+[main/sessions/main/34f688bb-0850-4be1-a51b-ce7812d0c5b7.jsonl#L10] Assistant: 信箱空，无新指令。 📊 日志动态：bailian-qwen 持续返回 HTTP 429（限流），deepseek 正常。备用模型暂不可用，如有切换需求需注意。 HEARTBEAT_OK
+[main/sessions/main/34f97aab-4554-4c04-bed9-4b569a401eee.jsonl#L10] Assistant: 信箱为空（1字节，无指令）。检查一下工作日志状态：
+[main/sessions/main/34f97aab-4554-4c04-bed9-4b569a401eee.jsonl#L12] Assistant: HEARTBEAT_OK 📋 状态总结： - **信箱**：空，无新指令 - **工作日志**：3.9KB，健康（远未达1MB阈值） - **⚠️ 注意**：今天15:00 bailian-qwen 出现 HTTP 429（限流），deepseek 正常。备用模型暂时不可用。
+[main/sessions/main/34fb2797-1106-4630-99f5-2817831aab5b.jsonl#L11] Assistant: 队列空，无新指令。追加本轮心跳日志。
+[main/sessions/main/354c810c-2f20-435c-bb11-70dbdf979005.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/354c810c-2f20-435c-bb11-70dbdf979005.jsonl#L10] Assistant: 日志动态：**bailian-qwen 持续 429 限流**，deepseek 正常。已记录。 HEARTBEAT_OK
+[main/sessions/main/35c0f156-2f8e-46e6-96b9-d9318dbe92af.jsonl#L10] Assistant: 队列为空，无新指令。追加本次心跳日志。
+[main/sessions/main/35dc0fe7-02b3-4ca4-b729-57efd6dfaa35.jsonl#L14] Assistant: 队列空，无新指令。日志106KB/881行，健康。一切正常。 现在追加本次心跳日志：
+[main/sessions/main/3631ef59-354f-42e0-a3f3-9f79462f68b3.jsonl#L9] Assistant: 信箱为空，无新指令。 日志最近动态：bailian-qwen 持续返回 429，deepseek 正常。例行健康检查写入中，无需干预。 HEARTBEAT_OK
+[main/sessions/main/365091f3-52de-41fc-a76c-266bfb19db99.jsonl#L10] Assistant: **HEARTBEAT_OK** 信箱空，无新指令。日志动态：bailian-qwen 持续 429，deepseek 正常。无新异常。
+[main/sessions/main/3716a15a-de5d-4970-b1d9-22441c356294.jsonl#L10] Assistant: 队列为空，无新指令。 日志动态速览： - 魔因漫创桌面 v0.2.6 已部署，ComfyUI :8188 运行中 - bailian-qwen 持续 429（连续两小时），deepseek 正常 - 无异常事件需要介入 HEARTBEAT_OK
+[main/sessions/main/37af6883-b1e5-4caa-ba72-682fd71fe15b.jsonl#L10] Assistant: **HEARTBEAT_OK** - 📭 信箱为空，无新指令 - 📋 工作日志 4.8KB，健康 - 🛠️ 技能目录活跃，`guofeng-drama`、`api-failover`、`dual-agent-sop` 等近期有更新
+[main/sessions/main/37b3a66a-f9c7-44e3-ac5f-12d62e611a2b.jsonl#L10] Assistant: 队列空，无需执行。 🆕 技能目录有新动静： - `guofeng-drama` 更新于 01:58 - `AI漫剧全流程步骤清单.md`、`seedance_video_gen.py`、`gen_wukong.sh`、`kling_api/` 等近期新增 ⚠️ 日志里 bailian-qwen 刚报 HTTP 429（03:00），deepseek 正常。 追加心跳日志：
+[main/sessions/main/38b1629d-21ba-4a69-9c55-51c3beebfc77.jsonl#L11] Assistant: 信箱空，无新指令。 日志动态正常： - **23:00** API健康检查通过（deepseek HTTP 200） - **23:06** 黑悟空 Seedance 6段图生视频全部成功（~360s，72MB输出） - `guofeng-drama` 技能 22:51 有更新 - 日志 7.6K，远低于 1MB 阈值 **HEARTBEAT_OK**
+[main/sessions/main/390d5953-214e-45ab-bc0f-59e01ee93952.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/390d5953-214e-45ab-bc0f-59e01ee93952.jsonl#L10] Assistant: 日志 92KB（健康），技能目录正常，无异常。 HEARTBEAT_OK
+[main/sessions/main/3940a37e-3c46-4e95-bfbe-537bab933532.jsonl#L8] Assistant: 队列为空，无新指令。快速检查一下日志状态。
+[main/sessions/main/39dc3d09-d71e-4c5c-831a-771eb32a5d9a.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/39e5b1da-4f05-4902-a3ca-9a7dd0211c62.jsonl#L8] Assistant: 队列空，无新指令。检查工作日志：
+[main/sessions/main/39e5b1da-4f05-4902-a3ca-9a7dd0211c62.jsonl#L12] Assistant: 深夜静默，队列空，无新指令。追加心跳日志：
+[main/sessions/main/3aefcf7d-a706-4fab-8219-22d54fe53698.jsonl#L8] Assistant: 队列为空，无需执行。顺手看一眼工作日志状态。
+[main/sessions/main/3aefcf7d-a706-4fab-8219-22d54fe53698.jsonl#L10] Assistant: **HEARTBEAT_OK** 队列空，无新指令。日志 3.4KB 健康，最近动态：bailian-qwen 今天 13:00 挂了 429，deepseek 正常。
+[main/sessions/main/3b2ebbe0-9744-4962-8057-31f81c451aed.jsonl#L9] Assistant: **队列检查：** `~/yan_queue.md` 为空，无阿飞新指令。 **日志动态：** - 📥 LLM text encoder (16GB) / VAE 后台下载中 - 📋 国风工作流 JSON 已就绪 - ⚠️ **bailian-qwen 连续6小时 HTTP 429**（13:00～18:00 每小时一次），deepseek 保持健康。备用API持续限流，当前主力 deepseek 不受影响。 - 📏 日志大小 4.6KB，远未触及 1MB 阈值。 HEARTBEAT_OK
+[main/sessions/main/3b8a7b76-dcd4-4bd5-abf8-1be2832220c2.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/3b8a7b76-dcd4-4bd5-abf8-1be2832220c2.jsonl#L10] Assistant: 日志中有 api-failover 的例行检查记录：deepseek 正常，bailian-qwen 持续返回 429。无异常。 HEARTBEAT_OK
+[main/sessions/main/3bf3eaf9-ce55-45af-bc8f-0c89c2033ce8.jsonl#L10] Assistant: 队列空，无新指令。日志中有两个动态：
+[main/sessions/main/3bf3eaf9-ce55-45af-bc8f-0c89c2033ce8.jsonl#L12] Assistant: HEARTBEAT_OK 队列空，无新指令。⚠️ 注意到 07:00 bailian-qwen 备用模型返回 HTTP 429，主力 deepseek 正常，暂不影响服务。
+[main/sessions/main/3d118024-003e-44ba-a429-7210e857e12e.jsonl#L8] Assistant: 队列为空，无新指令。快速巡检一下工作日志和技能目录状态。
+[main/sessions/main/3d118024-003e-44ba-a429-7210e857e12e.jsonl#L11] Assistant: HEARTBEAT_OK 📊 巡检摘要（2026-05-10 13:22）： - **队列**：空，无待办指令 - **API状态**：deepseek ✅ | bailian-qwen ⚠️ HTTP 429（已自动降级，不影响业务） - **工作日志**：3.4KB，健康 - **技能目录动态**：阿飞今天有产出 — `guofeng-drama/`、`moyin_cli.py`、`驱魔录_风格蒸馏.md` 等新资产就位
+[main/sessions/main/3d140cf0-74e6-471f-9ca2-f0c440231ed9.jsonl#L8] Assistant: 队列为空，无新指令。 **HEARTBEAT_OK**
+[main/sessions/main/3e0080da-3029-4ca7-8ba3-af3758ef718a.jsonl#L8] Assistant: 队列为空，无新指令。快速检查一下工作日志最近动态。
+[main/sessions/main/3e0080da-3029-4ca7-8ba3-af3758ef718a.jsonl#L10] Assistant: 队列空，无新动态。 **HEARTBEAT_OK**
+[main/sessions/main/3e7ee6e5-0f70-422e-b97f-10642532dc4d.jsonl#L9] Assistant: 队列空，无新指令。日志有今日 12:30 的魔因漫创部署报告记录，无异常。 HEARTBEAT_OK
+[main/sessions/main/3ec8fd94-7267-49ba-b56e-25419e780554.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一眼日志动态：
+[main/sessions/main/3ec8fd94-7267-49ba-b56e-25419e780554.jsonl#L10] Assistant: 日志健康（90KB），bailian-qwen 429 已记录多轮，deepseek 主力正常，无增量变化。 HEARTBEAT_OK
+[main/sessions/main/3edba68f-4f0d-49cc-94dd-552bace6a36f.jsonl#L8] Assistant: 信箱为空，没有新指令。快速检查下近期日志状态。
+[main/sessions/main/3edba68f-4f0d-49cc-94dd-552bace6a36f.jsonl#L10] Assistant: 日志 99KB，健康。无新动态。bailian-qwen 429 限流仍在持续，deepseek 正常。队列空。 HEARTBEAT_OK
+[main/sessions/main/3f15457d-b7c9-4889-b353-3bc864db420b.jsonl#L8] Assistant: 信箱为空，无新指令。快速巡检一下日志和技能目录。
+[main/sessions/main/3f15457d-b7c9-4889-b353-3bc864db420b.jsonl#L11] Assistant: **HEARTBEAT_OK** — 信箱空，无新指令。 📊 巡检记录： - 日志最新：`20:00` bailian-qwen 报 429（已自动降级），deepseek 健康 - 技能库：20 个技能，无变动
+[main/sessions/main/3f4d196a-37a9-4abe-86b7-f9918c62a324.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/3f4d196a-37a9-4abe-86b7-f9918c62a324.jsonl#L10] Assistant: 日志有动态：今日 14:00 bailian-qwen 返回 429 限流，deepseek 正常。非紧急，无需干预。 HEARTBEAT_OK
+[main/sessions/main/3f78a044-e827-4d9e-9714-52c426fe563e.jsonl#L12] Assistant: **信�的�查：** `~/yan_queue.md` 为空，无新指令。 **工作日志动态：** 今日新增 黑悟空 Seedance 6段图生视频 ✅ 成功（~23:06），共72MB。日志 136 行，健康。 HEARTBEAT_OK
+[main/sessions/main/3f8fe148-a09c-4434-bfb8-0694b937ffd3.jsonl#L8] Assistant: 信箱为空，无阿飞新指令。 HEARTBEAT_OK
+[main/sessions/main/3f948e41-498d-47f5-8b7a-b5c4c19263f8.jsonl#L8] Assistant: 信箱为空，没有新指令。例行检查一下技能目录和工作日志状态。
+[main/sessions/main/3f948e41-498d-47f5-8b7a-b5c4c19263f8.jsonl#L11] Assistant: 技能目录有变化：`dual-agent-sop` 和 `guofeng-drama` 刚在 10:44 更新过，但指令信箱仍为空。日志健康，102KB。
+[main/sessions/main/3fa13c5c-f72b-4b91-af3d-fcee3a0960ab.jsonl#L10] Assistant: 队列空，无新指令。日志显示 bailian-qwen 刚才挂了 HTTP 429，deepseek 正常。记录心跳。
+[main/sessions/main/3fa13c5c-f72b-4b91-af3d-fcee3a0960ab.jsonl#L12] Assistant: HEARTBEAT_OK 📊 凌晨6点心跳：队列空，deepseek 正常。⚠️ 注意：bailian-qwen 刚才踩了 429（限流），已自动降级到 deepseek，不影响服务。日志 84KB 健康。
+[main/sessions/main/4068991d-9d90-419c-807d-d0cc18360520.jsonl#L11] Assistant: 队列空，无新指令。日志85KB正常。技能目录有18个条目（含新增文件和更新）。追加心跳记录后回复。
+[main/sessions/main/40ec0e51-d29d-4a2c-96c0-52e8dacfcbe2.jsonl#L11] Assistant: ✅ 队列空，无新指令。 最近动态：`dual-agent-sop/` 今早 06:03 有更新，`seedance_video_gen.py`、`gen_wukong.sh`、`guofeng-drama/` 昨晚有活动。日志 729 行 / ~86KB，健康。 HEARTBEAT_OK
+[main/sessions/main/4104f2c8-cba2-4426-878f-0eca7ba53a69.jsonl#L16] Assistant: HEARTBEAT_OK 📋 08:10 心跳总结： - **队列**：空，无阿飞新指令 - **API**：deepseek ✅ | bailian-qwen 429 🔴（持续中） - **日志**：92KB，健康 - **新动态**：`dual-agent-sop` / `guofeng-drama` 技能近期更新；`wukong` / `wukong_v2` 输出目录已生成
+[main/sessions/main/4239a060-5c1c-4724-ade4-ef1a95eacdf2.jsonl#L10] Assistant: 队列空，无新指令。日志96KB健康，无新变化。
+[main/sessions/main/4239a060-5c1c-4724-ade4-ef1a95eacdf2.jsonl#L12] Assistant: HEARTBEAT_OK ✅
+[main/sessions/main/42bfa69a-19ca-48c1-aa7d-c6cb8a4c51e0.jsonl#L8] Assistant: 队列文件为空，没有新指令。快速检查一下工作日志和技能目录。
+[main/sessions/main/42bfa69a-19ca-48c1-aa7d-c6cb8a4c51e0.jsonl#L11] Assistant: 队列空，无新指令。日志里发现今天（5/10）有技能目录更新：`dual-agent-sop`、`guofeng-drama` 等文件有凌晨更新。追加日志记录。
+[main/sessions/main/4303cd1a-2b60-4dfc-96bb-8d7d440bc7cd.jsonl#L11] Assistant: 信箱为空，无新指令。 **日志动态：** - 🆕 阿飞部署了魔因漫创 CLI 工具 `~/comic_skills/moyin_cli.py`（600+行，支持 Seedance/Kling/Wan 管线） - 🆕 桌面版 moyin-creator v0.2.6 安装包已落盘 Windows 桌面 - ⚠️ bailian-qwen API 429 降级（13:00），deepseek 正常 - ✅ ComfyUI :8188 运行中 无待办，一切正常。 HEARTBEAT_OK
+[main/sessions/main/432bccd5-2f71-4b0c-90c6-c9327fa42fe8.jsonl#L9] Assistant: `~/yan_queue.md` 为空，无新指令。工作日志最近更新是今日12:30的魔因漫创部署报告，无异常。 **HEARTBEAT_OK**
+[main/sessions/main/442639f7-2a7b-47e1-9bb4-0d363af968b6.jsonl#L8] Assistant: 队列为空，没有新指令。看看工作日志状态。
+[main/sessions/main/442639f7-2a7b-47e1-9bb4-0d363af968b6.jsonl#L10] Assistant: **队列空，无新指令。** 日志动态： - bailian-qwen 在 13:00 报了 HTTP 429（已记录） - deepseek 正常（HTTP 200） - 日志 3.4K，远未到 1MB 归档线 HEARTBEAT_OK
+[main/sessions/main/447238a8-27b5-408d-bf16-c15a9765d44e.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一眼日志动态：
+[main/sessions/main/447238a8-27b5-408d-bf16-c15a9765d44e.jsonl#L10] Assistant: 📋 **日志动态**：bailian-qwen 连续 429 限流（最近一次 14:00），deepseek 正常。api-failover 技能应已自动降级处理。 HEARTBEAT_OK
+[main/sessions/main/44936696-0c71-4642-b26f-d4a71ab744ec.jsonl#L10] Assistant: 队列空，无新指令。日志健康，bailian-qwen 持续 429 但 deepseek 正常无需切换。 HEARTBEAT_OK
+[main/sessions/main/44b899e7-1348-47e8-9ec8-5b8c0c858986.jsonl#L12] Assistant: **信箱检查：** `~/yan_queue.md` 为空，无新指令。 **日志动态：** - 📝 魔因漫创部署报告已写入日志（2026-05-10 12:30） - ⚠️ `bailian-qwen` 持续 HTTP 429（10:00 UTC / 18:00 CST），bailian 备用模型不可用 - ✅ `deepseek` 主力正常（HTTP 200） HEARTBEAT_OK
+[main/sessions/main/44ea5cc6-642c-460d-bc96-c5af1b1196fd.jsonl#L9] Assistant: 信箱为空，没有阿飞的新指令。 日志最新动态： - `23:00` — API健康检查通过（deepseek HTTP 200） - `23:06` — 黑悟空 Seedance 6段图生视频全部成功，shot_01~06.mp4 共约72MB HEARTBEAT_OK
+[main/sessions/main/459f563e-0c1f-4b41-a2d8-fc8467e08298.jsonl#L9] Assistant: ✅ 信箱为空，无新指令。 📊 **日志动态：** - `bailian-qwen` 连续两轮健康检查返回 HTTP 429（限流），时间集中在 18:00-19:00 时段 - `deepseek` 主路线正常（HTTP 200），不影响业务 > 飞哥，备用模型 `bailian-qwen` 近期频繁 429 限流，建议让阿飞排查下配额。主路线 deepseek 健康，漫剧生产不受影响。 HEARTBEAT_OK
+[main/sessions/main/4655be8a-c829-4ab3-aeba-584ac43e19ab.jsonl#L8] Assistant: 队列为空，无新指令。检查工作日志状态：
+[main/sessions/main/4655be8a-c829-4ab3-aeba-584ac43e19ab.jsonl#L10] Assistant: HEARTBEAT_OK 📊 状态：队列空，无新指令。工作日志 3.7KB 健康。上次 API 健康检查：deepseek 正常(200)，bailian-qwen 限流(429)，不影响主力使用。
+[main/sessions/main/46605bbe-734c-4275-ba45-c4b741980fad.jsonl#L8] Assistant: 指令信箱为空，没有新任务。让我快速扫一眼日志和技能目录。
+[main/sessions/main/46605bbe-734c-4275-ba45-c4b741980fad.jsonl#L11] Assistant: **HEARTBEAT_OK** 队列空，无新指令。日志最新两条为 11:16 / 11:24 心跳记录，105KB 健康。技能目录无新增（最新仍是 11:07 的 `驱魔录_风格蒸馏.md`）。bailian-qwen 403 告警持续标注中。
+[main/sessions/main/46b479c3-5cfb-42e4-b023-b25e19ebb8e5.jsonl#L8] Assistant: 信箱为空，无新指令。工作日志看了一眼，正常运转。 HEARTBEAT_OK
+[main/sessions/main/479098b2-e5f7-4c64-9bc4-f134a84da612.jsonl#L8] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/47a9bf8e-729e-42d8-82dc-228645b1f499.jsonl#L10] Assistant: 信箱为空，无新指令。 日志动态：bailian-qwen 返回 429 被标记失效，deepseek 正常。ComfyUI 国风工作流 JSON 就绪，LLM text encoder/VAE 后台下载中。 HEARTBEAT_OK
+[main/sessions/main/47bdd747-6b1c-4429-96ef-de522ba7942f.jsonl#L8] Assistant: 队列为空，无新指令。快速检查周边状态。
+[main/sessions/main/47bdd747-6b1c-4429-96ef-de522ba7942f.jsonl#L11] Assistant: 无新变化，追加本次心跳日志。
+[main/sessions/main/47dee806-4618-4b2a-83bf-7d81fd1d76d4.jsonl#L9] Assistant: 信箱为空，无新指令。 日志动态：bailian-qwen 持续返回 HTTP 429（限流），deepseek 主路正常。无需干预。 **HEARTBEAT_OK**
+[main/sessions/main/483e7d14-2b77-4b56-9154-2a18bb275fd7.jsonl#L10] Assistant: 队列空，无新指令。日志动态：bailian-qwen 在05:00报429，deepseek正常。记录本次心跳。
+[main/sessions/main/488a99ea-bec0-4e63-81c4-e33fd3497d56.jsonl#L9] Assistant: 信箱为空，无新指令。最近日志动态：今晚黑悟空Seedance 6段图生视频全部成功，阿砚已修复了本地路径→base64的400错误问题。 HEARTBEAT_OK
+[main/sessions/main/48d88f02-efa2-4695-953d-de7ff6bc1085.jsonl#L8] Assistant: 信箱为空，无新指令。再看下工作日志有无新动态。
+[main/sessions/main/48d88f02-efa2-4695-953d-de7ff6bc1085.jsonl#L10] Assistant: 信箱空，无新指令。 **日志动态：** - 阿飞 12:44 部署了魔因漫创桌面 v0.2.6 安装包到 Windows 桌面 - bailian-qwen 从 13:00 起持续 429 限流，已连续 3 小时（13:00/14:00/15:00） - deepseek 主模型全程健康 - ComfyUI :8188 运行中，国风工作流已就绪 HEARTBEAT_OK
+[main/sessions/main/4901a0d4-95f5-40a4-8516-2a48a61a6ba0.jsonl#L8] Assistant: 队列为空，没有待执行指令。快速扫一眼日志看看最近动态。
+[main/sessions/main/4901a0d4-95f5-40a4-8516-2a48a61a6ba0.jsonl#L10] Assistant: **HEARTBEAT_OK** 队列空，无新指令。日志动态： - `13:00` bailian-qwen 出现 HTTP 429 限流，deepseek 正常 - 国风工作流 JSON 已就绪，LLM text encoder / VAE 后台下载中 整体无异常。
+[main/sessions/main/49d95479-7be9-4a98-95d0-5c3653e67a68.jsonl#L9] Assistant: 信箱为空，无待执行指令。 日志动态：bailian-qwen 持续 429，最近两次 heartbeat（19:00/20:00）均报错；deepseek 正常 200。模式已持续多轮，建议确认是否需切换备用路由。 HEARTBEAT_OK
+[main/sessions/main/4a3a08ef-282d-4f9e-8374-9f60801c5d1a.jsonl#L8] Assistant: 信箱为空，无新指令。检查一下工作日志状态。
+[main/sessions/main/4a3a08ef-282d-4f9e-8374-9f60801c5d1a.jsonl#L10] Assistant: 日志健康（77K），无异常动态。记录本次心跳。
+[main/sessions/main/4a849600-e30e-4999-a98e-a597de72e46e.jsonl#L9] Assistant: 信箱为空，无新指令。 📋 **日志动态**：bailian-qwen 持续返回 HTTP 429（今日多次），deepseek 正常（HTTP 200）。API 降级可能已被触发，暂无异常。 **HEARTBEAT_OK**
+[main/sessions/main/4aba9d1a-fc61-446d-84ad-9383c9bcd283.jsonl#L8] Assistant: 信箱为空，无新指令。再快速扫一眼工作日志看有无异常。
+[main/sessions/main/4aba9d1a-fc61-446d-84ad-9383c9bcd283.jsonl#L10] Assistant: 日志健康（91KB，远未到1MB阈值），deepseek主力正常，bailian-qwen 429持续中。无新增动态。 **HEARTBEAT_OK**
+[main/sessions/main/4ac38734-d897-4e19-b54d-2ebdf445866a.jsonl#L8] Assistant: 队列为空，无新指令。顺手看一眼工作日志状态：
+[main/sessions/main/4ac38734-d897-4e19-b54d-2ebdf445866a.jsonl#L10] Assistant: **状态摘要：** - 📭 指令信箱：空，无新任务 - 📋 今日动态：`bailian-qwen` 13:00 触发 429 限流（已记录），`deepseek` 正常 - 📏 日志：3.4KB，健康 HEARTBEAT_OK
+[main/sessions/main/4b1f6d98-27e8-4901-b972-37af2769ef49.jsonl#L11] Assistant: `~/yan_queue.md` 为空，没有阿飞的新指令。 近期动态速览： - **技能区活跃**：`guofeng-drama`、`dual-agent-sop`、`moyin_cli.py`、`seedance_video_gen.py`、`kling_api`、`task-notify`、`api-failover` 近日皆有更新 - **新方法论文档**：`AI漫剧100方法论.md`、`阿砚实战能力矩阵.md`、`驱魔录_风格蒸馏.md` - **日志最后一条**：`bailian-qwen` HTTP 429 失
+[main/sessions/main/4c14a11f-e6f0-4f12-b9ee-27533629942f.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一下工作日志确认状态。
+[main/sessions/main/4c14a11f-e6f0-4f12-b9ee-27533629942f.jsonl#L10] Assistant: 日志正常，deepseek 健康，bailian-qwen 持续 429（限流非紧急）。无异常动态。 HEARTBEAT_OK
+[main/sessions/main/4c9fd928-f819-4fed-bedb-f6e813e6efc0.jsonl#L10] Assistant: 队列空，无新指令。追加本次心跳日志。
+[main/sessions/main/4d4b9289-35bc-4f2a-afe5-6cc21e768372.jsonl#L12] Assistant: **HEARTBEAT_OK** 📬 信箱空，无新指令。 📊 日志摘要： - `comic_work.log` — 4.8KB，健康 - 最近两条：deepseek 正常 (HTTP 200)，bailian-qwen 持续触发 429 限流 - 无新技能通知，无需归档
+[main/sessions/main/4dad352b-274e-465b-bdf3-c58024666025.jsonl#L9] Assistant: 队列空，日志正常（80K，未超1MB阈值）。凌晨安静。 HEARTBEAT_OK
+[main/sessions/main/4e3b0ff9-b902-4216-a966-d9650dd6044c.jsonl#L10] Assistant: 队列空，无新指令。日志81KB正常，最近心跳无异常。 HEARTBEAT_OK
+[main/sessions/main/4ed842d4-9686-4155-b458-1dbe7aa210cd.jsonl#L9] Assistant: 信箱为空，无新指令。日志动态： - **bailian-qwen 持续 429** — 已连续多轮限流，deepseek 正常服役中 - 日志 4KB，健康 HEARTBEAT_OK
+[main/sessions/main/4f004e52-5f53-45ad-a620-3960dd98f326.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/500dccf2-40eb-48d0-8d99-3a4b8863afdd.jsonl#L10] Assistant: 文件为空，无新指令。检查下工作日志近期动态。
+[main/sessions/main/500dccf2-40eb-48d0-8d99-3a4b8863afdd.jsonl#L12] Assistant: **HEARTBEAT_OK** 📋 指令信箱为空，无新任务。 **日志近期动态：** - `05-10 22:30` — 黑悟空剧本v2深化完成（6场/232行） - `05-10 22:50` — 阿飞紧急指令：黑悟空 Seedance 6段图生视频 → 已执行完成 - `05-10 23:00` — bailian-qwen 429 降级，deepseek 正常 - `05-10 23:06` — 6段图生视频全部成功，shot_01~06.mp4（~72MB）
+[main/sessions/main/50152d02-9478-4932-874e-11a62073bfb6.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一眼日志和技能目录。
+[main/sessions/main/50152d02-9478-4932-874e-11a62073bfb6.jsonl#L10] Assistant: 信箱空，无新指令。日志动态：bailian-qwen 在 16:00 触发了 429 限流，deepseek 正常。日志 4.1KB，健康。技能目录无变化。 **HEARTBEAT_OK**
+[main/sessions/main/50235d9b-39a5-4f53-b28c-faf4ebe7d93a.jsonl#L10] Assistant: 队列空，无新指令。日志正常增长中。 HEARTBEAT_OK
+[main/sessions/main/506078a1-7d12-49e6-9747-daa4e9d3faf4.jsonl#L8] Assistant: 信箱为空，没有新指令。 HEARTBEAT_OK
+[main/sessions/main/50ad3397-3a16-44c5-ae6b-620965bed2fc.jsonl#L8] Assistant: 队列空，无新指令。
+[main/sessions/main/50ad3397-3a16-44c5-ae6b-620965bed2fc.jsonl#L10] Assistant: 日志健康，最新心跳 08:18 无异常。 HEARTBEAT_OK
+[main/sessions/main/50eb0d95-4944-4f0b-a8f3-7da6fffe292f.jsonl#L11] Assistant: 信箱空，日志有动态已记录。 📊 本轮发现： - **bailian-qwen 持续 429**：今天 16:00、17:00 两轮 API 健康检查都报了 HTTP 429，deepseek 正常。 - **技能目录活跃**：`guofeng-drama`、`dual-agent-sop`、`moyin_cli.py`、`seedance_video_gen.py` 近 24 小时有更新，阿飞在铺国风漫剧 + 魔音 + Seedance 管线。 HEARTBEAT_OK
+[main/sessions/main/510f4be7-298d-4ffa-828e-14122f989502.jsonl#L8] Assistant: 信箱为空。快速检查一下日志最近动向。
+[main/sessions/main/510f4be7-298d-4ffa-828e-14122f989502.jsonl#L10] Assistant: HEARTBEAT_OK 📭 信箱空，无待执行指令。 📊 日志动态：bailian-qwen 今天多次 HTTP 429（11:00 / 19:00 / 20:00 三次），deepseek 主线正常。备用线路可能被限流，暂时不影响生产。
+[main/sessions/main/5134e781-521d-413e-b128-4bd7ed2fa9dd.jsonl#L8] Assistant: 队列文件为空，没有阿飞的新指令。 快速扫一眼工作日志看有没有值得留意的动态：
+[main/sessions/main/5134e781-521d-413e-b128-4bd7ed2fa9dd.jsonl#L10] Assistant: **队列空，无新指令。** 日志动态：bailian-qwen 持续 429 限流（今日已多次），deepseek 正常。 HEARTBEAT_OK
+[main/sessions/main/51414720-c44b-47e8-8b47-ed9939ae5866.jsonl#L9] Assistant: 信箱为空，无新指令。日志最新内容为今天 12:30 的魔因漫创部署报告，无新动态。 HEARTBEAT_OK
+[main/sessions/main/51f1bac9-d2ef-47d7-b09d-34055754a1b5.jsonl#L8] Assistant: 队列为空，无新指令。
+[main/sessions/main/52a504dd-a8fd-4958-aebf-39c7d8beaaed.jsonl#L10] Assistant: 队列空，凌晨无新动态。 HEARTBEAT_OK
+[main/sessions/main/52c7f89d-8f01-4fb6-8f38-9268c90f60b7.jsonl#L10] Assistant: 队列为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/5335805d-a185-4756-ab18-1f729e575525.jsonl#L14] Assistant: 队列空，无新指令。注意到 07:00 bailian-qwen 返回 429，主力 deepseek 正常。写心跳记录。
+[main/sessions/main/5372a8bd-3459-4d33-b847-9b4a07b9556c.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/5372a8bd-3459-4d33-b847-9b4a07b9556c.jsonl#L10] Assistant: 日志无异常动态（bailian-qwen 触发 429 限流，api-failover 应已自动处理；deepseek 正常）。 HEARTBEAT_OK
+[main/sessions/main/54f37066-df38-477a-b0e2-fbc24cc45c2a.jsonl#L10] Assistant: 队列空，无新指令。日志健康（92KB/769行），技能目录最近更新已在之前的心跳中记录。 HEARTBEAT_OK
+[main/sessions/main/55f71ec8-5375-452c-adaf-8754120f8a85.jsonl#L12] Assistant: 信箱空，无新指令。 日志动态：bailian-qwen 持续 429 限流，deepseek 正常。无异常。 HEARTBEAT_OK
+[main/sessions/main/5616bbb0-bc90-4067-823a-2bb5532e9e3a.jsonl#L8] Assistant: 队列文件为空，无需执行。检查一下工作日志最近动态。
+[main/sessions/main/5616bbb0-bc90-4067-823a-2bb5532e9e3a.jsonl#L10] Assistant: 深夜时段，一切正常。追加心跳记录。
+[main/sessions/main/56a3b6f9-c1a7-4678-a5e1-13cc3d9bc486.jsonl#L8] Assistant: 队列为空，无新指令。检查一下工作日志有无新动态。
+[main/sessions/main/56a3b6f9-c1a7-4678-a5e1-13cc3d9bc486.jsonl#L10] Assistant: **队列**：空，无新指令。 **日志动态**：bailian-qwen 持续 429 限流（最近两次 13:00/14:00），deepseek 正常。日志大小 3.7KB，健康。 HEARTBEAT_OK
+[main/sessions/main/56e5e00b-9dfc-425f-a193-0e04db34fab2.jsonl#L10] Assistant: 信箱空，无新指令。 **日志动态**：`~/comic_work.log` 当前 105 行 / 5.0KB，健康。近两小时记录显示 `bailian-qwen` 持续 429 限流，deepseek 正常。这不是新指令，但属于值得关注的状态——备用模型暂时不可用。 技能目录无变化。 HEARTBEAT_OK
+[main/sessions/main/5756fd7a-dec2-417a-9e72-6201ab8f27e9.jsonl#L8] Assistant: 队列空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/57852c50-861e-41b7-a86b-35ffc49ce1a0.jsonl#L8] Assistant: 信箱为空，没有新指令。再看一眼工作日志近况。
+[main/sessions/main/57852c50-861e-41b7-a86b-35ffc49ce1a0.jsonl#L10] Assistant: 📋 **日志动态速记：** - **bailian-qwen** 今天多次返回 HTTP 429（限流），最近两次在 19:00 和 20:00 - **deepseek** 保持健康（HTTP 200） - 无待执行任务 HEARTBEAT_OK
+[main/sessions/main/57b171f3-a653-498e-aa7e-a8c50732832a.jsonl#L8] Assistant: 队列为空，无新指令。检查下日志和技能目录动态。
+[main/sessions/main/5890b2c1-6dd0-4df1-b181-c14928348d59.jsonl#L10] Assistant: 队列空，无新指令。日志 86KB，健康。 HEARTBEAT_OK
+[main/sessions/main/59adc043-4006-4045-b22c-751d9064eb6c.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一眼工作日志。
+[main/sessions/main/59adc043-4006-4045-b22c-751d9064eb6c.jsonl#L10] Assistant: HEARTBEAT_OK. 📊 速览：队列空，无待办。`deepseek` 正常，`bailian-qwen` 持续 429 限流（上次心跳已记录）。技能目录有新文档（阿砚实战能力矩阵、AI漫剧100方法论），有空可瞄一眼。
+[main/sessions/main/59e333dc-d2ae-4dab-8f79-97e3e0a8e8c0.jsonl#L8] Assistant: 信箱为空，没有新指令。快速巡检一下日志和技能目录。
+[main/sessions/main/59e333dc-d2ae-4dab-8f79-97e3e0a8e8c0.jsonl#L10] Assistant: 📋 **巡检记录 (2026-05-10 18:22)** | 项目 | 状态 | |------|------| | 信箱 | 空，无待办 | | `deepseek` | ✅ HTTP 200 | | `bailian-qwen` | ⚠️ HTTP 429（18:00 限流） | | 新技能 | `api-failover` — 18:07 阿飞刚放的 | HEARTBEAT_OK
+[main/sessions/main/5a4370bf-db7f-4a5e-80ef-7d91802a7779.jsonl#L9] Assistant: 信箱为空，无新指令。 **日志动态摘要：** - 🟢 **DeepSeek** — 全天健康 (HTTP 200) - 🔴 **bailian-qwen** — 连续 6 小时 429 限流 (13:00~18:00)，备用 API 已 фактически 不可用 - 📝 其他记录：LLM text encoder / VAE 后台下载中，国风工作流 JSON 已就绪 无待执行任务，一切正常。HEARTBEAT_OK。
+[main/sessions/main/5a8cff1a-fda7-422d-81ad-03914753115f.jsonl#L9] Assistant: 队列空，无新指令。日志正常，最近均为心跳记录。 HEARTBEAT_OK
+[main/sessions/main/5b4b790a-4726-409f-957e-79f1f9fe24c5.jsonl#L8] Assistant: 队列为空，无新指令。
+[main/sessions/main/5b4b790a-4726-409f-957e-79f1f9fe24c5.jsonl#L10] Assistant: 日志无新动态（07:03的心跳已记录bailian-qwen 429降级，deepseek正常）。 HEARTBEAT_OK
+[main/sessions/main/5c8a765f-2ef9-4b04-a599-ca73942f32db.jsonl#L10] Assistant: 队列文件为空，无新指令。快速扫一眼工作日志有没有新动态。
+[main/sessions/main/5c8a765f-2ef9-4b04-a599-ca73942f32db.jsonl#L12] Assistant: 深夜一切平静。追加本次心跳日志。
+[main/sessions/main/5ce039a2-9365-44af-8eae-573bd061e2f4.jsonl#L9] Assistant: 信箱为空，无新指令。 📋 **日志动态**：bailian-qwen 连续两个检查周期 HTTP 429（17:00 / 18:00），deepseek 健康。api-failover 技能应已自动降级。 HEARTBEAT_OK
+[main/sessions/main/5d6453d8-708f-4d34-9fbc-447684208f17.jsonl#L10] Assistant: 队列空，无新指令。最近动态已在之前心跳覆盖（驱魔录_风格蒸馏.md等）。日志正常。 HEARTBEAT_OK
+[main/sessions/main/5daab8e5-c47f-45af-a87b-ce12084b8d15.jsonl#L11] Assistant: 队列空，日志健康（4.8K），无新指令。 HEARTBEAT_OK
+[main/sessions/main/5eb9142c-0a27-45bc-90a2-4eab39509cab.jsonl#L8] Assistant: 信箱为空，无新指令。
+[main/sessions/main/5ef75dbf-5831-4151-a7cc-165a2e17f033.jsonl#L10] Assistant: **队列检查：** `~/yan_queue.md` 为空，无新指令。 **日志动态：** bailian-qwen 持续返回 429，deepseek 正常。非紧急，无需干预。 HEARTBEAT_OK
+[main/sessions/main/5f0b771d-b1b4-4477-a8d7-c1103417b075.jsonl#L10] Assistant: 队列空，无新指令。日志最近几次心跳正常，无异常动态。 HEARTBEAT_OK
+[main/sessions/main/5f565ad7-ae06-4bae-9427-ec52974b73cf.jsonl#L11] Assistant: 队列空，无新指令。日志 90KB，健康增长。HEARTBEAT_OK
+[main/sessions/main/5f6b9ad1-5c90-4769-8ad2-814d2ae82e81.jsonl#L9] Assistant: 队列为空，无新指令。技能目录有今日更新（`guofeng-drama`、`moyin_cli.py`、`dual-agent-sop` 等），均为阿飞正常产出，无需干预。 HEARTBEAT_OK
+[main/sessions/main/5f79a8a8-e3c1-4179-93b6-a0fe2520aee2.jsonl#L15] Assistant: 队列空，无新指令。 📋 本轮动态： - **新文件**: `seedance_video_gen.py` (00:10)、`阿砚实战能力矩阵.md` (01:11)、`AI漫剧100方法论.md` (01:07) - **技能更新**: `guofeng-drama` (01:58) - **告警持续**: bailian-qwen 403 - **日志**: 74KB 健康 HEARTBEAT_OK
+[main/sessions/main/5fe18f3a-a38d-4f16-a343-361ce23dcdfc.jsonl#L8] Assistant: 信箱为空，无新指令。快速扫一眼日志动态：
+[main/sessions/main/5fe18f3a-a38d-4f16-a343-361ce23dcdfc.jsonl#L10] Assistant: 日志 104KB，健康增长，无异常动态。上次提到的 bailian-qwen 429 已是过往记录，当前心跳正常。 HEARTBEAT_OK
+[main/sessions/main/607aa37a-aff4-4400-818e-b607a3d0e04a.jsonl#L8] Assistant: 信箱为空，没有新指令。再看看工作日志最近状态。
+[main/sessions/main/607aa37a-aff4-4400-818e-b607a3d0e04a.jsonl#L10] Assistant: **HEARTBEAT_OK** 📭 信箱空，无新指令。日志动态：bailian-qwen 持续 429 限流（17:00/18:00 两次），deepseek 正常。无异常。
+[main/sessions/main/608cf6cb-bd95-46ec-87e2-32751cbcdf58.jsonl#L9] Assistant: 信箱为空，没有阿飞的新指令。日志最近一条是今天 12:30 的魔因漫创部署报告，无异常。 HEARTBEAT_OK
+[main/sessions/main/60b06c84-6721-43d5-9795-dd75a17ae98f.jsonl#L11] Assistant: 队列为空，无新指令。 日志动态：bailian-qwen 持续 429（今日 13:00/14:00/15:00 三次告警），deepseek 正常。魔因漫创 v0.2.6 已部署到飞哥桌面。 HEARTBEAT_OK
+[main/sessions/main/61298f02-3e82-483b-a306-9b664d696ee6.jsonl#L11] Assistant: 队列空，无新指令。技能目录有更新（阿飞昨晚到今天凌晨产出了不少新东西），日志92KB健康。追加心跳记录。
+[main/sessions/main/6144cae1-e1b1-4a53-8e72-ea07872a31bd.jsonl#L10] Assistant: 信箱为空，无新指令。 日志动态：`bailian-qwen` 持续返回 429（过载/限流），`deepseek` 正常。日志 4.1KB，健康。无其他异常。 **HEARTBEAT_OK**
+[main/sessions/main/618f34bc-f94f-40c8-bd97-5c28f464f71a.jsonl#L9] Assistant: 信箱为空，没有阿飞的新指令。 HEARTBEAT_OK
+[main/sessions/main/61f91e38-6c72-4648-aa08-ab14be60452c.jsonl#L8] Assistant: 队列为空，没有新指令。例行心跳正常。 HEARTBEAT_OK
+[main/sessions/main/6232226a-80da-4527-8c0a-22b656b1bb7e.jsonl#L8] Assistant: 信箱空，无新指令。检查下日志状态。
+[main/sessions/main/6232226a-80da-4527-8c0a-22b656b1bb7e.jsonl#L10] Assistant: HEARTBEAT_OK - 信箱空，无新指令。 - 工作日志 3.9K，增长正常。 - API状态：deepseek ✅ | bailian-qwen 持续 429，已自动降级。 - 技能目录 20 项，无新增。
+[main/sessions/main/62bd27b7-7886-4e8a-a055-3b3d1a1a8fb8.jsonl#L8] Assistant: 信箱为空，无需执行。快速扫一眼工作日志看动态。
+[main/sessions/main/62bd27b7-7886-4e8a-a055-3b3d1a1a8fb8.jsonl#L10] Assistant: 信箱空，无新指令。日志动态：bailian-qwen 持续 429 限流（13:00/14:00/22:00 各报一次），deepseek 正常。无异常。 **HEARTBEAT_OK**
+[main/sessions/main/63d57e5f-b073-4e8b-934c-8cc1e4213947.jsonl#L13] Assistant: 📊 **Heartbeat 2200 — 2026-05-10 22:42 CST** | 项目 | 状态 | |------|------| | 📬 指令信箱 | 空，无新指令 | | 📝 工作日志 | 正常增长 | | 🛠️ 技能目录 | 无新增技能 | | 🌐 API 健康 | deepseek ✅ / bailian-qwen ❌ 429 (持续中) | **日志动态速览：** - 黑悟空剧本 v2 深化完成（22:30），6场232行，待飞哥喂入魔因漫创 - 阿飞已下发魔因漫创 v0.2.6 exe 到飞
+[main/sessions/main/645bf46b-bc1c-432a-bff1-aaf38f5a20ad.jsonl#L11] Assistant: **信箱检查：** `~/yan_queue.md` 为空，无新指令。 **日志动态：** - 📦 阿飞已完成魔因漫创部署分析（Electron + React 桌面应用，核心 API 走 memeFast） - 🖥️ ComfyUI :8188 运行中 - ⚠️ **bailian-qwen 持续 429**：今天 13:00 起每小时均报 HTTP 429，已持续 8 小时。deepseek 正常，主力未受影响。 HEARTBEAT_OK
+[main/sessions/main/64fea16d-4421-4158-bffa-a15bf8b33ec1.jsonl#L11] Assistant: 队列空，无新指令。 **日志动态**：bailian-qwen 已连续4小时返回 HTTP 429（19:00-22:00），deepseek 保持健康。魔因漫创部署报告仍在中午12:30那条。 HEARTBEAT_OK
+[main/sessions/main/65176c16-ce9b-4c37-9f3f-50a311e85553.jsonl#L8] Assistant: 队列空，无新指令。HEARTBEAT_OK。
+[main/sessions/main/65b98777-08c5-4b8c-8277-0ddc6945cc33.jsonl#L9] Assistant: **队列检查完毕：** - 📭 `~/yan_queue.md` — 空，无新指令 - 📋 `~/comic_work.log` 最新动态：bailian-qwen 持续返回 HTTP 429（已多次），deepseek 正常。无新任务入口。 HEARTBEAT_OK
+[main/sessions/main/6654ef97-72ea-4703-804a-51b4c4cf2d15.jsonl#L9] Assistant: 队列为空，无新指令。 日志动态：bailian-qwen 持续 429 限流（最近一次 20:00），deepseek 主路正常。无需干预。 **HEARTBEAT_OK**
+[main/sessions/main/670454d5-7fe2-41e4-8509-e23028111b4d.jsonl#L10] Assistant: 信箱为空，无新指令。 **日志动态**: bailian-qwen 持续 429，deepseek 正常。已记录。 HEARTBEAT_OK
+[main/sessions/main/6706e732-be56-4336-88da-749eba1e9c08.jsonl#L8] Assistant: 信箱空，没有新指令。 HEARTBEAT_OK
+[main/sessions/main/677745c5-0f88-4fc9-8487-b457a65460cd.jsonl#L8] Assistant: 队列为空，没有新指令。顺便瞄一眼工作日志最近动态。
+[main/sessions/main/677745c5-0f88-4fc9-8487-b457a65460cd.jsonl#L10] Assistant: **HEARTBEAT_OK** — 队列空，无新指令。 日志动态：bailian-qwen 持续返回 429，deepseek 正常。api-failover 技能已在处理，无需干预。
+[main/sessions/main/677745c5-0f88-4fc9-8487-b457a65460cd.jsonl#L12] Assistant: 日志 4.1KB，健康。无事，收工。
+[main/sessions/main/67d73e80-023c-42da-9bca-18cd9df18c6b.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一眼工作日志有无异常。
+[main/sessions/main/67d73e80-023c-42da-9bca-18cd9df18c6b.jsonl#L10] Assistant: 日志最近动态：bailian-qwen 在 13:00 触发了 429，deepseek 正常。无事需干预。 HEARTBEAT_OK
+[main/sessions/main/691bbf26-0896-45c9-a56d-0fcffe593d1d.jsonl#L8] Assistant: 信箱为空，没有阿飞的新指令。查一下日志。
+[main/sessions/main/691bbf26-0896-45c9-a56d-0fcffe593d1d.jsonl#L10] Assistant: **HEARTBEAT_OK** — 信箱空，无新指令。 日志动态：bailian-qwen 连续两轮 HTTP 429，deepseek 正常。api-failover 技能应该已在处理降级，无需干预。
+[main/sessions/main/6a6287f1-dbaf-4158-b1ff-2873e8610d76.jsonl#L8] Assistant: 队列为空，无新指令。快速扫一眼日志和技能目录。
+[main/sessions/main/6a6287f1-dbaf-4158-b1ff-2873e8610d76.jsonl#L10] Assistant: 📋 **队列为空，无待执行指令。** **日志动态：** - `18:00` bailian-qwen 触发 HTTP 429 限流 → 已记录，deepseek 正常 - `18:07` `api-failover` 技能有更新（阿飞可能在 429 后热修） - `12:28` `guofeng-drama` 技能有更新 无异常，一切正常。 HEARTBEAT_OK
+[main/sessions/main/6a805bb8-b77a-425d-9719-f5025ea602f2.jsonl#L11] Assistant: **HEARTBEAT_OK** - `~/yan_queue.md` — 空，无新指令。 - 日志动态：今晚黑悟空 Seedance 6段图生视频已完成（23:06），bailian-qwen 出现过一次429，deepseek正常。 无事，待命。
+[main/sessions/main/6b1288d3-c3b6-44ec-aa29-cfc3115a238a.jsonl#L8] Assistant: 队列文件为空，没有新指令。快速巡检一下工作日志和技能目录。
+[main/sessions/main/6b1288d3-c3b6-44ec-aa29-cfc3115a238a.jsonl#L10] Assistant: 一切正常。队列空，技能目录无新增（上次心跳已记录），日志健康。
+[main/sessions/main/6b3d435f-f45d-4343-b661-d4d8a9c66ef1.jsonl#L10] Assistant: **信箱空。** 无新指令。 📋 日志动态：bailian-qwen 今天 14:00 和 15:00 连续两次 HTTP 429（限流），deepseek 正常。api-failover 技能已到位，降级逻辑应自动处理。 HEARTBEAT_OK
+[main/sessions/main/6c478b33-7711-49e7-9234-f910cda1be18.jsonl#L10] Assistant: **信箱为空**，无新指令。 日志动态：bailian-qwen 持续返回 HTTP 429，deepseek 正常。属常规限流，无异常。 HEARTBEAT_OK
+[main/sessions/main/6c678774-a142-4d09-89e8-f2d9726e793a.jsonl#L8] Assistant: 队列空，无新指令。快速扫一下日志最近动态。
+[main/sessions/main/6c678774-a142-4d09-89e8-f2d9726e793a.jsonl#L10] Assistant: **HEARTBEAT_OK** 📋 检查结果： - **指令信箱**：空，无新任务 - **日志动态**：bailian-qwen 备用 API 持续 429 限流（非新问题，之前已记录），deepseek 主力正常 无待办事项。
+[main/sessions/main/6c786583-b1cf-4fbe-bbf7-5940929426ff.jsonl#L8] Assistant: 信箱为空，无新指令。再快速扫一眼日志和新技能。
+[main/sessions/main/6c786583-b1cf-4fbe-bbf7-5940929426ff.jsonl#L12] Assistant: 信箱空，无待执行指令。 📊 **日志快照**： - bailian-qwen 连续两次返回 HTTP 429（18:00 / 19:00），疑似今日配额耗尽 - deepseek 主线路畅通，未受影响 - 新技能 `api-failover` v1.1.0 已就位（今日 18:07 更新，正好覆盖这类降级场景） HEARTBEAT_OK
+[main/sessions/main/6c98df9f-106f-4ca1-a772-0cda457e97e8.jsonl#L10] Assistant: 队列空，无新指令。日志最近两条心跳正常，bailian-qwen 持续 429 但 deepseek 健康，api-failover 已就位。 HEARTBEAT_OK
+[main/sessions/main/6d38108f-9051-43bf-b4b5-1a860ac3b3b3.jsonl#L11] Assistant: **信箱**：空，无新指令。 **日志动态**： - `2026-05-10 12:30` — 阿飞提交了「魔因漫创部署报告」：逆向分析完成（moyin-creator v0.2.3，Electron+React架构，核心API代理memeFast，Seedance 2.0/Kling/Wan管线），代码已推送到GitHub仓库。 HEARTBEAT_OK
+[main/sessions/main/6e47750c-2167-4bd1-8208-6175425257e5.jsonl#L8] Assistant: 指令信箱为空，无新任务。 HEARTBEAT_OK
+[main/sessions/main/6f7c2e92-4836-4d53-9e60-2088e74ff693.jsonl#L9] Assistant: 队列空，无新指令。日志有新动态：阿飞刚完成了 **魔因漫创 (moyin-creator v0.2.3)** 的代码逆向分析 + 环境部署，是个 Electron + React 桌面端的漫剧制作工具，对接 Seedance/Kling/Wan 等多家视频模型。 HEARTBEAT_OK
+[main/sessions/main/6fd0437e-676f-4ba4-8a86-2cb1383c89ab.jsonl#L8] Assistant: 信箱为空，无新指令。 快速检查一下其他动态：
+[main/sessions/main/6fd0437e-676f-4ba4-8a86-2cb1383c89ab.jsonl#L10] Assistant: HEARTBEAT_OK 📋 本次检查摘要： - **信箱**：空，无待执行指令 - **日志动态**：bailian-qwen 在 19:00 报 HTTP 429（已记录），deepseek 正常 - **技能目录**：无新技能加入
+[main/sessions/main/704b8fe5-b88c-4239-b283-f07b3e5a2ec3.jsonl#L10] Assistant: 信箱为空，无新指令。日志近期动态：魔因漫创 v0.2.6 已部署到桌面、ComfyUI :8188 运行中、模型下载中。 HEARTBEAT_OK
+[main/sessions/main/705604f8-cb66-4e14-a397-519bfa00ec3a.jsonl#L10] Assistant: 信箱空，无待执行指令。 日志动态：`bailian-qwen` 持续返回 HTTP 429（今晚 21:00/22:00 均出现），`deepseek` 正常。非紧急，已记录。 **HEARTBEAT_OK**
+[main/sessions/main/708fc425-6f66-444f-aad3-5fd1f0aa9cf2.jsonl#L8] Assistant: 队列为空，无新指令。快速检查下工作日志最近状态：
+[main/sessions/main/708fc425-6f66-444f-aad3-5fd1f0aa9cf2.jsonl#L10] Assistant: 队列空，日志 73KB 健康。无待处理事项。 HEARTBEAT_OK
+[main/sessions/main/70adca67-5635-4f54-ac5c-2a42973eb38e.jsonl#L10] Assistant: 队列空，无新指令。日志中 bailian-qwen 持续 429 限流，deepseek 正常。 **HEARTBEAT_OK**
+[main/sessions/main/70c0a8e2-7cbf-4e9d-9c29-fbf0f1e89534.jsonl#L8] Assistant: 队列为空。快速扫一眼近期日志和技能目录。
+[main/sessions/main/70c0a8e2-7cbf-4e9d-9c29-fbf0f1e89534.jsonl#L10] Assistant: 一切正常，追加心跳记录。
+[main/sessions/main/70d7f871-9271-4914-af28-7181a1e46eec.jsonl#L12] Assistant: 信箱空，无新指令。日志新动态已记录： - 🟡 **bailian-qwen** 今早 13:00 返回 HTTP 429，备用线路降级中 - 🟢 **deepseek** 正常 - 技能目录活跃：`guofeng-drama` / `dual-agent-sop` 最近更新，新增 `驱魔录_风格蒸馏.md`、`AI漫剧100方法论.md` 等 HEARTBEAT_OK
+[main/sessions/main/70e1c7cf-db1d-40b3-be2e-5119f56c3341.jsonl#L10] Assistant: 队列空，无新指令。日志显示 07:00 时 bailian-qwen 返回 HTTP 429（备用模型暂不可用），deepseek 主力正常，已记录。 HEARTBEAT_OK.
+[main/sessions/main/71c14fab-6e77-4eb0-92de-24db608f6ed8.jsonl#L10] Assistant: 信箱空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/71d6dac2-30c1-420a-aca0-cece62d93e9f.jsonl#L10] Assistant: 队列为空，无阿飞新指令。 日志动态：今天 bailian-qwen 持续 429 限流（18:00/19:00各一次），deepseek 正常。目前不影响主力模型。 HEARTBEAT_OK
+[main/sessions/main/7298a6b3-6bda-4459-a6e0-32865ec21597.jsonl#L9] Assistant: 队列空，无新指令。日志最后更新为今日 12:30（魔因漫创部署报告），无异常。 **HEARTBEAT_OK**
+[main/sessions/main/72a11840-0307-42db-9543-08d5e01c90aa.jsonl#L8] Assistant: 队列为空，没有新指令。看一眼日志最近动态。
+[main/sessions/main/72a11840-0307-42db-9543-08d5e01c90aa.jsonl#L10] Assistant: **HEARTBEAT_OK** 队列空，无新指令。日志动态：近两小时 bailian-qwen 持续 429（触发频率限制），deepseek 正常。备用模型暂时不可用但不影响主力。 ``` 📊 [14:54 CST] 心跳完成 | 队列:空 | deepseek:🟢 | bailian-qwen:🔴429 ```
+[main/sessions/main/72de480e-78be-445d-8d0d-1d1071f7e2dd.jsonl#L10] Assistant: 信箱空。日志最新动态：21:00 bailian-qwen 返回429限流，deepseek正常。无需操作。 HEARTBEAT_OK
+[main/sessions/main/7315b6be-996c-43f3-a06a-af0e49d025d9.jsonl#L11] Assistant: HEARTBEAT_OK 信箱空，无阿飞新指令。 📋 **日志动态**：bailian-qwen 今天 16:00/17:00 连续返回 HTTP 429（限流），deepseek 正常。备用线路暂时不可用，但不影响当前主力模型。
+[main/sessions/main/73185877-53cc-457b-a6f6-17571edbe847.jsonl#L8] Assistant: 队列为空，无新指令。
+[main/sessions/main/73185877-53cc-457b-a6f6-17571edbe847.jsonl#L11] Assistant: 队列空，日志健康（106KB），技能目录18项无变化。追加本轮心跳日志：
+[main/sessions/main/73211b23-10e8-441d-826c-836e7438c72d.jsonl#L12] Assistant: 队列空，无新指令。追加本轮心跳日志。
+[main/sessions/main/73522194-1771-4fa5-b771-2c2a2afc55c7.jsonl#L9] Assistant: 信箱为空，无新指令。日志显示 bailian-qwen 持续 429，deepseek 正常。无异常需处理。 HEARTBEAT_OK
+[main/sessions/main/73e5f4ff-24ac-44ea-b85e-74f392427da3.jsonl#L9] Assistant: 队列空，无新指令。 📋 日志动态： - `[05-10 22:30]` 黑悟空剧本v2深化完成，已存 `~/comic_scripts/black_wukong_s01.md`，6场/232行，待飞哥喂入魔因漫创。 HEARTBEAT_OK
+[main/sessions/main/73f59bf1-5a12-4e87-8f27-de696989c103.jsonl#L8] Assistant: 信箱空，没有阿飞的新指令。快速检查一下工作日志：
+[main/sessions/main/73f59bf1-5a12-4e87-8f27-de696989c103.jsonl#L10] Assistant: **队列检查完成：** | 项目 | 状态 | |------|------| | 指令信箱 | 空，无新任务 | | deepseek 主力 | ✅ 正常 | | bailian-qwen 备用 | ⚠️ 持续 429 限流（已知问题） | HEARTBEAT_OK
+[main/sessions/main/74394e76-62e3-4489-83c6-fafed99d91ae.jsonl#L8] Assistant: 队列为空，无新指令。检查下工作日志最近动态。
+[main/sessions/main/74394e76-62e3-4489-83c6-fafed99d91ae.jsonl#L10] Assistant: 日志动态：API健康检查在跑，**bailian-qwen** 今天出现2次 HTTP 429 限流（20:00 / 21:00），deepseek 正常。属于已知的备用线路波动，无需立即处理。 HEARTBEAT_OK
+[main/sessions/main/747a6585-9757-4f08-933a-f7a8b66f36af.jsonl#L9] Assistant: 队列为空，无新指令。日志有更新——阿飞在 12:30 部署了魔因漫创 CLI 工具。让我确认下新产出。
+[main/sessions/main/747a6585-9757-4f08-933a-f7a8b66f36af.jsonl#L11] Assistant: ✅ **HEARTBEAT_OK** - **指令信箱**：空，无待执行任务 - **新动态**：阿飞在 12:30 部署了魔因漫创 `moyin_cli.py`（21KB, 600+ 行）到 `~/comic_skills/`，封装了 memeFast API 全管线：剧本→生图→生视频→全自动 pipeline。飞哥下次说"做漫剧"可以直接走这条管线。
+[main/sessions/main/74b6030d-578f-4d18-bc47-9e7aa6ec01d4.jsonl#L8] Assistant: 信箱为空，没有新指令。 检查下工作日志最近动态：
+[main/sessions/main/74b6030d-578f-4d18-bc47-9e7aa6ec01d4.jsonl#L10] Assistant: 日志最近三条都是心跳记录，一切正常。deepseek 正常，18 技能，日志 84KB 健康。 HEARTBEAT_OK
+[main/sessions/main/751b09d8-958f-448c-abc5-4a2b444536ae.jsonl#L10] Assistant: 队列空，无新指令。日志显示例行心跳，无增量动态。 HEARTBEAT_OK
+[main/sessions/main/7590c5fb-50a1-4461-92b2-2f1641503680.jsonl#L8] Assistant: 信箱为空，无新指令。检查下日志状态。
+[main/sessions/main/7590c5fb-50a1-4461-92b2-2f1641503680.jsonl#L10] Assistant: 队列空，日志正常（82KB）。记录本轮心跳。
+[main/sessions/main/76239141-ec11-4c21-8657-a8bc6869caca.jsonl#L8] Assistant: 信箱为空，没有新指令。
+[main/sessions/main/76239141-ec11-4c21-8657-a8bc6869caca.jsonl#L10] Assistant: 日志有动态但属常规健康检查：bailian-qwen 持续返回 429，deepseek 正常。api-failover 技能应已处理降级。 HEARTBEAT_OK
+[main/sessions/main/7644f7b8-1a47-499d-82f1-b9867e35126a.jsonl#L12] Assistant: **队列空，无新指令。** 日志健康（7.6K），最新动向：黑悟空 Seedance 6段图生视频全部成功。HEARTBEAT_OK
+[main/sessions/main/767b8166-6386-421a-96a9-f5639f2235f4.jsonl#L9] Assistant: 队列空，无待处理指令。日志正常增长，前几次心跳均为静默状态。 HEARTBEAT_OK
+[main/sessions/main/7773f0e7-540e-43f3-b369-0729bb4bdefd.jsonl#L9] Assistant: **HEARTBEAT_OK** — 信箱 `~/yan_queue.md` 为空，无新指令。日志最近活动：魔因漫创部署报告（2026-05-10 12:30），无异常。
+[main/sessions/main/77cb7251-cc87-4771-8c24-877bfa26919c.jsonl#L11] Assistant: 信箱为空，无新指令。 日志动态： - **API 降级记录**：bailian-qwen 返回 429（限流），deepseek 正常。当前主力模型 unaffected。 - ComfyUI 后台在下载 LLM text encoder / VAE，国风工作流 JSON 就绪。 HEARTBEAT_OK
+[main/sessions/main/78c5dc68-e424-4a7a-acb4-05ea6213a8fa.jsonl#L8] Assistant: 信箱为空，无新指令。 HEARTBEAT_OK
+[main/sessions/main/78ea074e-1e72-4464-8e4f-dc247a4fb03c.jsonl#L9] Assistant: 信箱空，无新指令。 日志最新动态：今日 12:30 阿飞交付了魔因漫创 Python CLI 工具 `~/comic_skills/moyin_cli.py`（600+行，封装 memeFast API 全管线）。无待办。 **HEARTBEAT_OK**
+[main/sessions/main/797c4e2d-7698-436a-a4a9-017a06c0e2b6.jsonl#L9] Assistant: 队列空，无新指令。凌晨安静，追加心跳日志。
+[main/sessions/main/79b2fcf7-0a8d-4bf5-8ae4-9c93534c7709.jsonl#L8] Assistant: 队列文件为空，无新指令。
+[main/sessions/main/79b2fcf7-0a8d-4bf5-8ae4-9c93534c7709.jsonl#L10] Assistant: 日志无异常新动态。bailian-qwen 持续 429，deepseek 正常——已知状态，无需干预。 **HEARTBEAT_OK**
+[main/sessions/main/79d07e04-7c2b-4a56-91f8-5dc9cf1b79d8.jsonl#L8] Assistant: 队列为空，无新指令。
