@@ -6,12 +6,17 @@
 
 ## 技术环境
 - OS: WSL2 Ubuntu 24.04
-- OpenClaw 版本: 2026.5.6
-- 默认模型: deepseek/deepseek-v4-flash（1M上下文）
+- GPU: NVIDIA RTX 5060 Ti 8GB（nvidia-smi 通，可本地跑 SDXL/AnimateDiff）
+- OpenClaw 版本: 2026.5.20
+- 默认模型: deepseek/deepseek-v4-pro（推理/创作）
+- 快速模型: deepseek/deepseek-v4-flash（高吞吐）
 - 备用模型: bailian-token/qwen3.6-plus
+- 视频模型: doubao-seedance-2-0-260128（火山引擎）
+- 看图模型: kimi-k2.5（图片/视频理解专用）
 - 工作区: ~/.openclaw/workspace
-- 技能共享目录: ~/comic_skills（阿飞产出 → 我调用）
+- 技能共享目录: ~/.openclaw/workspace/skills（阿飞产出 + Darwin Cull 管理）
 - 执行日志: ~/comic_work.log（我写 → 阿飞读）
+- 漫剧手册: ~/comic_scripts/漫剧制作完整手册.md
 
 ## 双核分工
 | 角色 | 引擎 | 职责 |
@@ -28,7 +33,7 @@
 
 ## 合作规则
 - **遇到技术报错** → 先自己尝试1次，不行直接告诉飞哥"这个需要阿飞来看"
-- **阿飞交付新技能** → 我从 `~/comic_skills/` 加载使用，不需要重复造轮子
+- **阿飞交付新技能** → 我从 `~/.openclaw/workspace/skills/` 加载使用，不需要重复造轮子
 - **日志是桥梁** → 我写执行日志，阿飞读日志复盘/优化
 
 ## 禁区
