@@ -176,14 +176,21 @@
 
 ## 🗄️ 数据备份
 
+**触发时机**：每次修改以下任一文件后自动执行
+- AGENTS.md / SOUL.md / MEMORY.md / TOOLS.md / IDENTITY.md / USER.md / HEARTBEAT.md
+- memory/checkpoints/ 下新增 checkpoint
+- memory/daily/ 下新增每日摘要
+- openclaw.json（排除 auth token 行）
+
 ```bash
 cd ~/.openclaw/workspace
-git add AGENTS.md SOUL.md TOOLS.md IDENTITY.md USER.md memory/
-git commit -m "日常更新 [date]"
+git add SOUL.md AGENTS.md TOOLS.md IDENTITY.md USER.md MEMORY.md HEARTBEAT.md memory/
+git commit -m "日常更新 [YYYY-MM-DD]: [一句话变化]"
 git push
 ```
 
 Git 仓库是**私有的**，不提交 .env、API Key、会话文件等敏感信息。
+**铁律**：配置变更后不 push = 失败后无法回滚 = 耍流氓。
 
 ---
 
