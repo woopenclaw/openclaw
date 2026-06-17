@@ -28,6 +28,23 @@
 - 会话记忆问题：每天凌晨3点自动清理旧会话导致新对话失忆。原因：session.maintenance 默认保留期太短 + dreaming插件写的是诗不是记忆 + MEMORY.md Recent Events 停止更新22天。 (2026-06-14)
 
 ## Recent Events
+## 每日摘要 2026-06-14
+<!-- memory_type: daily_digest -->
+- 关键决策：诊断并修复跨天失忆问题（session 30d保留/dreaming禁用/第零层记忆唤醒/Remember铁律）。模型从deepseek-v4-pro切到bailian-token/qwen3.7-plus后又切回。searxng→duckduckgo搜索切换（duckduckgo也不通，待修复）。
+- 进行中任务：8装修工程分包报价分析已完成（材料人工综合分析表+分包报价决策表）。搜索修复待阿飞处理。
+- 待办事项：飞哥需确认分包报价方案。searxng/Docker修复。
+- 配置变更：session.maintenance(30d)、dreaming全部禁用、search provider切duckduckgo、新增每日摘要cron、主模型切换又切回、Agent新增qwen3.7-plus模型
+
+## 每日摘要 2026-06-15
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## 每日摘要 2026-06-16
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## Recent Events
+- 2026-06-17: 深度系统体检+修复。OpenClaw 2026.6.8 已是最新。修复：kimi cost.output、飞书插件 2026.6.8、gateway service 文件、6325 孤儿会话归档、legacy state 清理。主模型切到 qwen3.7-plus。发现 Kilo Code（OpenClaw 托管版竞品）。安全审计 7 CRITICAL 待飞哥决策。
 - 2026-06-14: 发现并修复跨天失忆问题。session.maintenance 设30天保留 + cron每日摘要 + MEMORY.md Recent Events铁律 + dreaming REM阶段禁用。
 - 2026-06-14: Codex配置同步完成，bridge通道就绪。Windows端v2026.6.6不再使用client.mode，改用openclaw config。
 - 2026-06-13: 工作区整理（comic_skills 归档、cron修复、Darwin Cull配置、guofeng-drama去重检查）。
