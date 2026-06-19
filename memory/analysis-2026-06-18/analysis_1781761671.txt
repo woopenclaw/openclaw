@@ -1,0 +1,17 @@
+
+   Id ProcessName          MainWindowTitle                                                                 
+   -- -----------          ---------------                                                                 
+17632 ApplicationFrameHost 设置                                                                            
+16940 Codex                Codex                                                                           
+ 2136 LeagueClientUx       League of Legends                                                               
+ 7488 msedge               OpenClaw Control 和另外 5 个页面 - 用户配置 1 - Microsoft? Edge                 
+17640 SystemSettings       设置                                                                            
+15924 TextInputHost        Windows 输入体验                                                                
+21032 WindowsTerminal      C:\Users\Administrator\AppData\Local\hermes\hermes-agent\venv\Scripts\hermes.exe
+
+
+榧犳爣浣嶇疆: POS: 873,1302
+灞忓箷灏哄: SCREEN: 2560x1440
+
+鍒嗘瀽鏃堕棿: Thu Jun 18 13:47:52 CST 2026
+鎻忚堪: After task: 鍙戦�佹祴璇曟秷鎭粰 Hermes

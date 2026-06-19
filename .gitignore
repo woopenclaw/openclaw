@@ -26,3 +26,19 @@ __pycache__/
 
 # 队列文件
 yan_queue.md
+
+# 临时分析文件
+analysis/
+screenshots/
+reports/
+packages/
+openclaw-agent/
+stage01_results.json
+video_analysis_report.md
+skill-drill-*.html
+skill-drill-*.drawio
+C:\\Temp\\*
+
+# 大文件
+*.xlsx
+*.pdf

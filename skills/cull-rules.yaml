@@ -1,0 +1,91 @@
+# Darwin Cull — 阿砚工具箱精简规则
+# 管理 ~/.openclaw/workspace/skills/ 目录
+
+ecosystem: openclaw
+skills_dir: auto
+graveyard_dir: auto
+
+platform:
+  os: linux
+  unavailable_hardware:
+    - philips-hue
+    - sonos
+    - eight-sleep
+  unavailable_services: []
+
+domain_thresholds:
+  image_gen: 3       # nano-banana-pro + 备用
+  video_gen: 2       # seedance + sora
+  browser: 2         # playwright + web-browsing
+  comic: 4           # comic-drama-generate + arakawa + guofeng + humanizer
+  default: 5
+
+quality_min_score: 4
+stale_days: 120
+
+# 保护名单：核心技能永不淘汰
+protected:
+  - darwin-cull
+  - comic-drama-generate
+  - seedance-2-video-gen
+  - nano-banana-pro
+  - arakawa-perspective
+  - nuwa
+  - playwright
+  - web-search
+  - web-browsing
+  - humanizer
+  - devops
+  - notes
+  - repo-guardian
+  - bruce-drawio
+  - pdf-text-extractor
+  - sqlite-client
+  - system-data-intelligence
+  - audio-cog
+  - translatepro
+  - text-to-speech-and-voice-cloning-agent
+  - sora-2-generate
+  - video-prompt-generator
+  - web-search-pro
+  - nano-banana-pro-prompts-recommend
+  - novel-outliner
+  - novel-quality-checker
+  - zh-novel-writer
+  - doc2md
+  - restart-guard
+
+# 重复组：同组只保留第一个
+duplicate_groups:
+  image_generation:
+    - nano-banana-pro
+    - free-image-and-video-generation
+  wan_video:
+    - seedance-2-video-gen
+    - wan-image-video-generation-editting
+
+builtin_tools:
+  - web_search
+  - web_fetch
+  - exec
+  - read
+  - write
+  - image_generate
+  - video_generate
+
+# 自定义淘汰规则
+custom_rules:
+  - pattern: "free-image-and-video-generation"
+    reason: "已由 nano-banana-pro + seedance 替代"
+    action: cull
+  - pattern: "wan-image-video.*"
+    reason: "已由 seedance-2-video-gen 替代"
+    action: cull
+  - pattern: "social-scheduler"
+    reason: "未使用的社交媒体调度"
+    action: cull
+
+auto_execute: false
+auto_execute_rules:
+  - functional_duplicate
+  - deprecated
