@@ -7,7 +7,7 @@
 |--------|---------|---------|
 | searxng 搜索 | `curl -s -m 3 http://127.0.0.1:8888/health` | 连续2次失败 → 汇报飞哥 |
 | 火山 API | `curl -s -m 3 https://ark.cn-beijing.volces.com/api/v3/health` | 连续2次失败 → 汇报飞哥 |
-| ComfyUI 本地 | `curl -s -m 2 http://127.0.0.1:8188/system_stats` | 离线 → 汇报飞哥 |
+| ComfyUI 本地 | `curl -s -m 2 http://127.0.0.1:8188/system_stats` | 离线 → 汇报飞哥（06-19 阿飞已修复） |
 | Gateway 健康 | `curl -s http://127.0.0.1:18789/health` | 挂了 → 无法汇报 |
 | 磁盘空间 | `df -h /` | 使用率 > 90% → 提醒飞哥 |
 | 会话目录 | `du -sh ~/.openclaw/agents/main/sessions/` | > 2GB → 提醒归档 |

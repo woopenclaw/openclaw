@@ -58,7 +58,7 @@
 - 配置变更：IDENTITY.md/USER.md/TOOLS.md 同步更新模型策略（qwen3.7-plus 主力、deepseek-v4-pro 推理备选）。
 
 ## Recent Events
-- 2026-06-19: 系统体检修复——byteplus model name乱码修复、.gitignore完善、git commit积压文件。火山API实际可用（health端点误报）。待修：ComfyUI离线、searxng无Docker（需阿飞）。
+- 2026-06-19: 系统体检修复——byteplus model name乱码修复、.gitignore完善、git commit积压文件。火山API实际可用（health端点误报）。ComfyUI已由阿飞重启（PID 231669）。searxng确认不修（已切duckduckgo）。待修项全部清零。
 - 2026-06-18: 模型策略更新：`bailian-token/qwen3.7-plus` 正式成为主力模型（推理/创作/日常），`deepseek/deepseek-v4-pro` 降为推理备选。Codex 任务下达，已更新 IDENTITY.md/USER.md/TOOLS.md。
 - 2026-06-17: 深度系统体检+修复。OpenClaw 2026.6.8 已是最新。修复：kimi cost.output、飞书插件 2026.6.8、gateway service 文件、6325 孤儿会话归档、legacy state 清理。主模型切到 qwen3.7-plus。发现 Kilo Code（OpenClaw 托管版竞品）。安全审计 7 CRITICAL 待飞哥决策。
 - 2026-06-14: 发现并修复跨天失忆问题。session.maintenance 设30天保留 + cron每日摘要 + MEMORY.md Recent Events铁律 + dreaming REM阶段禁用。
