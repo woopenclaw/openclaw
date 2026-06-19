@@ -43,7 +43,22 @@
 <!-- memory_type: daily_digest -->
 无会话记录
 
+## 每日摘要 2026-06-17
+<!-- memory_type: daily_digest -->
+- 关键决策：深度系统体检+修复，确认 OpenClaw 2026.6.8 已是最新版本。发现 Kilo Code（OpenClaw 托管版竞品）。安全审计发现 7 项 CRITICAL 问题待飞哥决策。
+- 进行中任务：安全审计 7 CRITICAL 待飞哥确认处理方案。
+- 待办事项：飞哥决策安全审计 7 项 CRITICAL 问题的修复方案。
+- 配置变更：主模型切换到 qwen3.7-plus。修复 kimi cost.output、飞书插件升级 2026.6.8、gateway service 文件修复、6325 孤儿会话归档、legacy state 清理。
+
+## 每日摘要 2026-06-18
+<!-- memory_type: daily_digest -->
+- 关键决策：模型策略正式更新——`bailian-token/qwen3.7-plus` 成为主力模型（推理/创作/日常），`deepseek/deepseek-v4-pro` 降为推理备选。Codex 任务下达机制确认。
+- 进行中任务：无明确进行中任务（会话记录不可检索，基于 Recent Events 推断）。
+- 待办事项：安全审计 7 CRITICAL 仍待飞哥决策（延续 06-17）。
+- 配置变更：IDENTITY.md/USER.md/TOOLS.md 同步更新模型策略（qwen3.7-plus 主力、deepseek-v4-pro 推理备选）。
+
 ## Recent Events
+- 2026-06-18: 模型策略更新：`bailian-token/qwen3.7-plus` 正式成为主力模型（推理/创作/日常），`deepseek/deepseek-v4-pro` 降为推理备选。Codex 任务下达，已更新 IDENTITY.md/USER.md/TOOLS.md。
 - 2026-06-17: 深度系统体检+修复。OpenClaw 2026.6.8 已是最新。修复：kimi cost.output、飞书插件 2026.6.8、gateway service 文件、6325 孤儿会话归档、legacy state 清理。主模型切到 qwen3.7-plus。发现 Kilo Code（OpenClaw 托管版竞品）。安全审计 7 CRITICAL 待飞哥决策。
 - 2026-06-14: 发现并修复跨天失忆问题。session.maintenance 设30天保留 + cron每日摘要 + MEMORY.md Recent Events铁律 + dreaming REM阶段禁用。
 - 2026-06-14: Codex配置同步完成，bridge通道就绪。Windows端v2026.6.6不再使用client.mode，改用openclaw config。

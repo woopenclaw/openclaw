@@ -8,7 +8,8 @@
 - OS: WSL2 Ubuntu 24.04
 - GPU: NVIDIA RTX 5060 Ti 8GB（nvidia-smi 通，可本地跑 SDXL/AnimateDiff）
 - OpenClaw 版本: 2026.5.20
-- 默认模型: deepseek/deepseek-v4-pro（推理/创作）
+- 默认模型: bailian-token/qwen3.7-plus（新主力，推理/创作/日常）
+- 推理备选: deepseek/deepseek-v4-pro（深度推理/复杂代码）
 - 快速模型: deepseek/deepseek-v4-flash（高吞吐）
 - 备用模型: bailian-token/qwen3.6-plus
 - 视频模型: doubao-seedance-2-0-260128（火山引擎）

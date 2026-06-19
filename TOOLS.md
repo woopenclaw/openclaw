@@ -46,8 +46,9 @@
 ## 模型策略
 | 角色 | 模型 ID | 说明 |
 |------|---------|------|
-| 🏆 主力 | `deepseek/deepseek-v4-pro` | 推理、代码、创作 |
-| 🗃️ 日常 | `deepseek/deepseek-v4-flash` | 高吞吐、低成本、1M 上下文 |
+| 🏆 **主力** | `bailian-token/qwen3.7-plus` | 推理、创作、日常交互（新主力） |
+| 🧠 推理备选 | `deepseek/deepseek-v4-pro` | 深度推理、复杂代码 |
+| 🚀 高吞吐 | `deepseek/deepseek-v4-flash` | 日常快速响应、1M 上下文 |
 | 🎬 视频 | `doubao-seedance-2-0-260128` | 火山引擎 Seedance 2.0 |
 | 👁️ 看图 | `kimi-k2.5` | 图片/视频理解专用 |
 | 🎬 视频备选 | `kling-v2-6` (可灵) | JWT鉴权，5s/镜 ¥3-4，无审核误判 |
