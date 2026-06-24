@@ -57,6 +57,33 @@
 - 待办事项：安全审计 7 CRITICAL 仍待飞哥决策（延续 06-17）。
 - 配置变更：IDENTITY.md/USER.md/TOOLS.md 同步更新模型策略（qwen3.7-plus 主力、deepseek-v4-pro 推理备选）。
 
+## 每日摘要 2026-06-19
+<!-- memory_type: daily_digest -->
+- 关键决策：系统体检修复，确认火山API实际可用（health端点误报），searxng确认不修（已切duckduckgo）。
+- 进行中任务：待修项全部清零，无进行中任务。
+- 待办事项：无（所有待修项已清零）。
+- 配置变更：byteplus model name乱码修复、.gitignore完善、git commit积压文件、ComfyUI由阿飞重启（PID 231669）。
+
+## 每日摘要 2026-06-20
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## 每日摘要 2026-06-21
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## 每日摘要 2026-06-22
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## 每日摘要 2026-06-23
+<!-- memory_type: daily_digest -->
+无会话记录
+
+## 每日摘要 2026-06-24
+<!-- memory_type: daily_digest -->
+无会话记录
+
 ## Recent Events
 - 2026-06-19: 系统体检修复——byteplus model name乱码修复、.gitignore完善、git commit积压文件。火山API实际可用（health端点误报）。ComfyUI已由阿飞重启（PID 231669）。searxng确认不修（已切duckduckgo）。待修项全部清零。
 - 2026-06-18: 模型策略更新：`bailian-token/qwen3.7-plus` 正式成为主力模型（推理/创作/日常），`deepseek/deepseek-v4-pro` 降为推理备选。Codex 任务下达，已更新 IDENTITY.md/USER.md/TOOLS.md。
